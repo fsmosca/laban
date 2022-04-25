@@ -13,7 +13,7 @@ A python script that is used to match a team of engines for the HAB - `Hand and 
 It should be noted that the engine that handles the `hand` must support the searchmoves UCI command.
 
 ### Engines that support searchmoves uci commands
-These are the engines that can be used as the `hand` member of the team.
+These are the engines that can be used as the `hand` member of the team, there can be others.
 
 * [Berserk](https://github.com/jhonnold/berserk/releases)
 * [Cdrill](https://sites.google.com/view/cdrill/download)
@@ -38,6 +38,8 @@ These are the engines that can be used as the `hand` member of the team.
 ### Sample results
 
 cdrill as brain defeated stockfish as brain. Note stockfish 15 is around 3700 while cdrill is around 1800 from [ccrl blitz rating list](https://ccrl.chessdom.com/ccrl/404/rating_list_all.html).
+
+Test pgn files can be found in pgnout folder.
 
 ```
    # PLAYER                            :  RATING  POINTS  PLAYED   (%)
