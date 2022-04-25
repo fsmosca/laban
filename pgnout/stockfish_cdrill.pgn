@@ -1,0 +1,650 @@
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "1.2"]
+[White "Br_cdrill_1800_Ha_stockfish_15"]
+[Black "Br_stockfish_15_Ha_cdrill_1800"]
+[Result "0-1"]
+[FEN "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+2. Nf3 Nc6 3. d4 d5 4. Nxe5 dxe4 5. Nxc6 bxc6 6. Nc3 Nf6 7. h3 Bb4 8. Bc4 Nd5 9. Qd2 Bf5 10. Bxd5 cxd5 11. a3 Ba5 12. Qf4 Be6 13. Bd2 Bxc3 14. Bxc3 O-O 15. Bb4 Re8 16. Bc5 Bd7 17. Qe3 Re6 18. b3 Rg6 19. O-O h5 20. Rac1 a5 21. Rfe1 Raa6 22. c4 Qh4 23. cxd5 Bxh3 24. g3 Bf5 25. Kf1 Qf6 26. Kg2 h4 27. Qf4 hxg3 28. fxg3 Rg4 29. Qf2 Rg5 30. Rc3 Qh6 31. Rh1 Rh5 32. Rxh5 Qxh5 33. g4 Bxg4 34. Be7 Rh6 35. Qh4 Bf3+ 36. Kf2 Qxd5 37. Qxh6 gxh6 38. Bc5 Qh5 39. Be7 Qh2+ 40. Ke3 f5 41. d5 f4+ 42. Kd4 Qd2+ 43. Ke5 Qxc3+ 44. Kxf4 Qg7 45. d6 cxd6 46. Bd8 Qf8+ 47. Ke3 Qxd8 48. Kd2 Qg5+ 49. Kc2 e3 50. a4 e2 51. b4 e1=Q 52. b5 Qe2+ 53. Kb3 Qge3# 0-1
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "2.2"]
+[White "Br_cdrill_1800_Ha_stockfish_15"]
+[Black "Br_stockfish_15_Ha_cdrill_1800"]
+[Result "1-0"]
+[FEN "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+2. Qe2 Nc6 3. Qd1 Nf6 4. d3 d5 5. Bg5 Qd6 6. Nd2 h6 7. Bxf6 exf6 8. exd5 Qxd5 9. Qf3 Qe5+ 10. Qe2 Bg4 11. Ngf3 Qxe2+ 12. Bxe2 O-O-O 13. Nc4 h5 14. c3 b5 15. Ne3 Bxf3 16. gxf3 Bd6 17. h4 Rhe8 18. a3 a6 19. b4 Kb7 20. bxc5 Bxc5 21. d4 Bb6 22. O-O Ka7 23. f4 Na5 24. f5 Re4 25. a4 b4 26. cxb4 Nb3 27. Ra3 Nxd4 28. Bd1 Rxh4 29. Ng2 Re4 30. a5 Bc7 31. Bxh5 Rh8 32. Rh3 Ne2+ 33. Kh1 Rxb4 34. Re1 Rb3 35. Rh4 Nd4 36. Rxd4 Rxh5+ 37. Kg1 Be5 38. Rd7+ Rb7 39. Rd5 Rh3 40. Ne3 Rh4 41. Kg2 Rb2 42. Rc1 Rh2+ 43. Kg1 Rhxf2 44. Rd7+ Kb8 45. Rd8+ Kb7 46. Rd7+ Ka8 47. Rc8+ Rb8 48. Rxb8+ Kxb8 49. Kxf2 g6 50. Rd3 Bc7 51. Rb3+ Ka7 52. Nc4 gxf5 53. Rb1 f4 54. Rb3 Be5 55. Kf3 Bc7 56. Ke4 f5+ 57. Kd5 Ka8 58. Kc6 Bd8 59. Rb7 f3 60. Rd7 Kb8 61. Rxd8+ Ka7 62. Nb6 f2 63. Ra8# 1-0
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "2.1"]
+[White "Br_stockfish_15_Ha_cdrill_1800"]
+[Black "Br_cdrill_1800_Ha_stockfish_15"]
+[Result "1-0"]
+[FEN "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+2. Nc3 a6 3. Nf3 e6 4. d3 Nc6 5. d4 cxd4 6. Nxd4 Qc7 7. Nxc6 bxc6 8. Qf3 Bd6 9. Qg4 Qb8 10. Qxg7 Be5 11. Qg5 d5 12. Bd3 h5 13. exd5 cxd5 14. Kf1 Nf6 15. g3 Rg8 16. Qd2 Bd7 17. Rg1 h4 18. gxh4 Rh8 19. Qg5 Bc8 20. Ne2 Rg8 21. Qh6 Ng4 22. Rxg4 Rxg4 23. c3 Rg8 24. Bh7 Rh8 25. f4 Bd6 26. Qg7 Rf8 27. h5 a5 28. Bd3 Bd7 29. h6 Qd8 30. Be3 Qh4 31. Re1 Qh3+ 32. Kf2 Qh4+ 33. Kf1 Rb8 34. b3 Qh3+ 35. Kf2 Qxh2+ 36. Kf1 Qh3+ 37. Kf2 d4 38. Nxd4 Qh2+ 39. Kf1 e5 40. f5 Qh3+ 41. Qg2 Qxg2+ 42. Kxg2 f6 43. Ne6 Bxe6 44. fxe6 Ke7 45. Bc4 Rg8+ 46. Kf2 f5 47. Bd5 a4 48. Rg1 Rxg1 49. Kxg1 Kf6 50. c4 axb3 51. axb3 e4 52. c5 Be7 53. c6 Ke5 54. Bc4 Rg8+ 55. Kf1 f4 56. Bb6 Ra8 57. c7 f3 58. Kf2 Bh4+ 59. Kg1 Kf4 60. h7 e3 61. Ba6 e2 62. Bf2 e1=Q+ 63. Bxe1 Bxe1 64. c8=Q Rxc8 65. Bxc8 Bh4 66. h8=Q Be7 67. Qd4+ Kf5 68. Qa7 Kf6 69. Kf2 Bd6 70. Qd4+ Be5 71. Qd8+ Kf5 72. e7+ Kf4 73. e8=Q Bd4+ 74. Qxd4+ Kg5 75. Qg4+ Kh6 76. Qh8# 1-0
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "1.1"]
+[White "Br_stockfish_15_Ha_cdrill_1800"]
+[Black "Br_cdrill_1800_Ha_stockfish_15"]
+[Result "0-1"]
+[FEN "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+2. Nc3 Bc5 3. Qh5 Bd6 4. Bc4 g6 5. Qf3 Qf6 6. Nb5 Nc6 7. Nxd6+ cxd6 8. Qxf6 Nxf6 9. d3 Nd4 10. Bb3 Nxb3 11. axb3 b5 12. c4 a6 13. Nf3 Bb7 14. Bd2 bxc4 15. bxc4 O-O 16. O-O Ne8 17. Nh4 f6 18. g4 Ng7 19. Bb4 Ne8 20. b3 Bc6 21. Ra3 Rb8 22. Ba5 Kf7 23. Bd2 Ng7 24. f4 Ke7 25. fxe5 dxe5 26. b4 g5 27. Nf5+ Nxf5 28. gxf5 Ra8 29. Rfa1 Bb7 30. Kh1 h5 31. Kg1 d6 32. Kh1 Rfd8 33. Be3 h4 34. Kg1 g4 35. Kh1 g3 36. b5 axb5 37. Rxa8 Rxa8 38. Rxa8 Bxa8 39. cxb5 d5 40. hxg3 dxe4 41. dxe4 Bxe4+ 42. Kh2 hxg3+ 43. Kxg3 Bxf5 44. Kf3 Kd6 45. Ba7 Bc8 46. Be3 f5 47. Kg3 Bd7 48. b6 Bc8 49. Bd2 Kc5 50. Be3+ Kd5 51. Bg5 Kc5 52. Be3+ Kc4 53. Bf4 Kd4 54. Bg5 Bb7 55. Bc1 Bd5 56. Bg5 Kd3 57. Bh6 Ke4 58. Bf8 f4+ 59. Kf2 Kd4 60. b7 Bxb7 61. Bg7 Kd5 62. Bh6 Ke6 63. Bf8 e4 64. Bc5 Ba6 65. Bb6 Bc4 66. Bc5 Kf5 67. Ba7 Ke5 68. Kg2 e3 69. Kf3 Bd5+ 70. Kg4 Ke4 71. Bb8 f3 72. Bg3 f2 73. Bxf2 exf2 74. Kh5 f1=Q 75. Kg6 Qf4 76. Kg7 Qg5+ 77. Kh7 Bf7 78. Kh8 Qg8# 0-1
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "4.2"]
+[White "Br_cdrill_1800_Ha_stockfish_15"]
+[Black "Br_stockfish_15_Ha_cdrill_1800"]
+[Result "0-1"]
+[FEN "rnbqkbnr/ppp1pppp/3p4/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+2. Qe2 e5 3. Nc3 Nc6 4. Nf3 g5 5. h3 Bh6 6. Kd1 Be6 7. Qb5 Ne7 8. Qxb7 O-O 9. Nd5 Bxd5 10. exd5 Rb8 11. dxc6 Rxb7 12. cxb7 c5 13. Nh2 f5 14. d3 Qe8 15. h4 Bg7 16. hxg5 Qb5 17. Nf3 Qxb7 18. c3 e4 19. Ne1 a5 20. Nc2 exd3 21. Na3 Ng6 22. Rh3 Nf4 23. Rf3 Ne2 24. Rxd3 Nxc1 25. Kxc1 Qe4 26. Rb1 Kh8 27. Re3 Qf4 28. Nb5 Be5 29. Kc2 Qxf2+ 30. Re2 Qh4 31. Kb3 a4+ 32. Ka3 Rb8 33. Rd2 Bf4 34. Re2 d5 35. g6 c4 36. g7+ Kxg7 37. Nd4 Bd6+ 38. Kxa4 Qf6 39. Nc6 Ra8+ 40. Kb5 Qf7 41. Ne7 Qe8+ 42. Nc6 Rb8+ 43. Ka5 Bc7+ 44. Ka4 Qxc6+ 45. Ka3 Qa8# 0-1
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "3.2"]
+[White "Br_cdrill_1800_Ha_stockfish_15"]
+[Black "Br_stockfish_15_Ha_cdrill_1800"]
+[Result "1-0"]
+[FEN "rnbqkbnr/pppp1ppp/4p3/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+2. Qe2 d5 3. exd5 Qxd5 4. Nc3 Qc5 5. Nf3 Nc6 6. Qd1 Nd4 7. Nxd4 Qxd4 8. Nb5 Qd8 9. d4 a6 10. Nc3 Bb4 11. Qd3 Ba5 12. Bf4 Ne7 13. Qe4 O-O 14. Bg5 f6 15. Bd2 Nf5 16. Be3 Rf7 17. a3 Nxe3 18. fxe3 f5 19. Qf4 c6 20. Bc4 g5 21. Qf3 g4 22. Qf4 Bxc3+ 23. bxc3 b5 24. Bb3 Qh4+ 25. g3 Qh5 26. O-O-O Bd7 27. e4 fxe4 28. Qxe4 Re8 29. Rhe1 a5 30. Rd2 Qg5 31. c4 Kh8 32. Re3 a4 33. Ba2 h6 34. cxb5 Rf1+ 35. Re1 Rxe1+ 36. Qxe1 cxb5 37. Qe5+ Qxe5 38. dxe5 Re7 39. Rf2 Kg7 40. Rf4 h5 41. Rd4 Rf7 42. Rd6 Kh8 43. Bxe6 Bxe6 44. Rxe6 Rf5 45. Re7 h4 46. gxh4 Kg8 47. e6 Kf8 48. Rh7 Re5 49. Rf7+ Ke8 50. Rg7 Rxe6 51. Rxg4 Re3 52. Rg3 Re1+ 53. Kb2 Re4 54. Rh3 b4 55. h5 Kf8 56. h6 Kg8 57. axb4 Rxb4+ 58. Ka3 Rc4 59. h7+ Kh8 60. c3 Rc7 61. Rf3 Rc4 62. h3 Kxh7 63. Kb2 Kh6 64. Rg3 Rc5 65. Rg4 Rb5+ 66. Rb4 Rh5 67. h4 Kg6 68. Rxa4 Kh6 69. Kb3 Rf5 70. Rg4 Rf8 71. c4 Kh5 72. Rd4 Kh6 73. c5 Rc8 74. Rc4 Kh5 75. c6 Rc7 76. Kb4 Kg6 77. Ka5 Kh5 78. Kb6 Rc8 79. c7 Re8 80. Kb7 Re7 81. Kb8 Re8+ 82. c8=Q Rxc8+ 83. Kxc8 Kh6 84. Rg4 Kh5 85. Rg5+ Kxh4 86. Rg1 Kh3 87. Kd7 Kh2 88. Rg8 Kh1 89. Kd6 Kh2 90. Ke5 Kh1 91. Ke4 Kh2 92. Kf3 Kh1 93. Kf2 Kh2 94. Rh8# 1-0
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "4.1"]
+[White "Br_stockfish_15_Ha_cdrill_1800"]
+[Black "Br_cdrill_1800_Ha_stockfish_15"]
+[Result "0-1"]
+[FEN "rnbqkbnr/ppp1pppp/3p4/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+2. d4 Nf6 3. Nc3 Nbd7 4. g4 h6 5. Nf3 Nb6 6. h3 d5 7. exd5 Nfxd5 8. Ne5 Nxc3 9. bxc3 Qd5 10. f3 e6 11. a4 Be7 12. Bd3 Nd7 13. Be4 Bh4+ 14. Kf1 Qa5 15. f4 Nxe5 16. fxe5 Qxc3 17. Ra3 Qc4+ 18. Qd3 Qxd3+ 19. cxd3 c6 20. a5 Rb8 21. Rb3 Bd7 22. Ba3 b5 23. Bc5 Bd8 24. Ke2 Bxa5 25. Rf1 Bb6 26. Ra3 a5 27. Bxb6 Rxb6 28. Rxa5 O-O 29. Ra7 Rd8 30. h4 b4 31. g5 hxg5 32. hxg5 g6 33. Kd2 Be8 34. Rf2 b3 35. Kc3 Rb5 36. Rb2 Rdb8 37. Ra3 c5 38. d5 exd5 39. Bxd5 Rd8 40. Bc4 Rb7 41. Ra5 Rc7 42. Rxb3 Bd7 43. Rb6 Bf5 44. Rbb5 Rdc8 45. Kc2 Kf8 46. Kd2 Kg7 47. Ke3 Bd7 48. Rb6 Rh8 49. Rf6 Bf5 50. Raa6 Re7 51. Kd2 Rh2+ 52. Kc1 Re2 53. Ra8 R2xe5 54. Rd8 Re2 55. Rxf5 gxf5 56. Kd1 Rh2 57. Rd6 Ra7 58. Ra6 Rxa6 59. Bxa6 Rb2 60. g6 fxg6 61. Bc8 f4 62. Bg4 Rh2 63. Ke1 g5 64. Kd1 Ra2 65. Ke1 Rh2 66. Kd1 Ra2 67. Be6 Rb2 68. Bg4 Rg2 69. Bf3 Ra2 70. Bh5 Kf6 71. Bg4 Rb2 72. Ke1 Ra2 73. Kd1 Rh2 74. Bf3 Ke5 75. d4+ Kxd4 76. Bg4 c4 77. Kc1 c3 78. Bf3 Ke3 79. Bg4 f3 80. Kd1 f2 81. Be2 Rh1+ 82. Kc2 Kxe2 83. Kxc3 f1=Q 84. Kc4 Qf5 85. Kd4 Qb5 86. Kc3 Rc1+ 87. Kd4 Rc4# 0-1
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "5.1"]
+[White "Br_stockfish_15_Ha_cdrill_1800"]
+[Black "Br_cdrill_1800_Ha_stockfish_15"]
+[Result "0-1"]
+[FEN "rnbqkbnr/pppp1ppp/8/4p3/8/1P6/P1PPPPPP/RNBQKBNR w KQkq - 0 2"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+2. Bb2 Nc6 3. e3 Qe7 4. d4 exd4 5. Bxd4 Qd6 6. Bc4 a6 7. Bc3 Qxd1+ 8. Kxd1 f6 9. Bd4 b6 10. Bc3 h5 11. Ne2 h4 12. Nf4 a5 13. Ng6 Rh6 14. Nf4 Nge7 15. Bd4 Nxd4 16. exd4 g5 17. Nd5 Nxd5 18. Bxd5 c6 19. Bg8 f5 20. Re1+ Be7 21. Bc4 d5 22. Bd3 Ra7 23. Nd2 h3 24. g3 f4 25. c3 a4 26. bxa4 fxg3 27. fxg3 Rxa4 28. Nb3 Bd7 29. Re5 Rf6 30. Ke2 g4 31. Re1 Kd8 32. Nc1 Bf8 33. Kd1 Bh6 34. Bc2 Rf2 35. R5e2 Rxe2 36. Rxe2 Rc4 37. Rf2 Rxc3 38. Rf1 Rf3 39. Rh1 c5 40. Nb3 c4 41. Nd2 Rf2 42. Nf1 c3 43. a4 Rg2 44. Ne3 Bxe3 45. Re1 Bxd4 46. Re2 Bg7 47. Bb3 Bf5 48. a5 bxa5 49. Ba4 Bd3 50. Re8+ Kc7 51. Re3 Be4 52. Rxe4 dxe4 53. Bb3 e3 54. Bc4 c2+ 55. Kc1 Bf8 56. Kb2 Ba3+ 57. Kb3 c1=Q 58. Be2 Qc5 59. Ka2 Rxe2+ 60. Ka1 Qc1# 0-1
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "3.1"]
+[White "Br_stockfish_15_Ha_cdrill_1800"]
+[Black "Br_cdrill_1800_Ha_stockfish_15"]
+[Result "0-1"]
+[FEN "rnbqkbnr/pppp1ppp/4p3/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+2. d4 Nc6 3. Nf3 Nf6 4. e5 Nd5 5. a3 d6 6. Bb5 a6 7. Bxc6+ bxc6 8. O-O a5 9. Re1 Be7 10. Nbd2 Ba6 11. Ne4 a4 12. Bg5 c5 13. dxc5 Bxg5 14. Nfxg5 dxe5 15. Qh5 Qe7 16. Nf3 O-O 17. Nxe5 Nf4 18. Qg4 f5 19. Qxf4 fxe4 20. Qxe4 Qxc5 21. Re3 Qd5 22. Qg4 Rf5 23. Rae1 Bb7 24. Rg3 g5 25. Qh5 Qd2 26. Nd3 Ba6 27. Rh3 Rf7 28. Rf1 Bb5 29. c4 Be8 30. Ne5 Rg7 31. Qh6 Kh8 32. Rf3 Bg6 33. Nxg6+ Rxg6 34. Rf8+ Rxf8 35. Qxf8+ Rg8 36. Qf6+ Rg7 37. Qe5 Qd6 38. Qxd6 cxd6 39. Rd1 Rd7 40. Kf1 Rb7 41. Rxd6 Rxb2 42. Rxe6 Rc2 43. Re8+ Kg7 44. Re4 Rc3 45. c5 Rxa3 46. Re7+ Kg6 47. Ra7 Rc3 48. Ra6+ Kf5 49. Rxa4 Rc1+ 50. Ke2 Rxc5 51. g4+ Kg6 52. Ra6+ Kg7 53. Kf3 Rc7 54. Kg2 Rf7 55. h3 h6 56. f3 Rc7 57. h4 gxh4 58. f4 Rc3 59. f5 Rb3 60. Ra7+ Kf6 61. Ra6+ Kg7 62. Ra7+ Kf6 63. Ra6+ Kg7 64. Kh2 Rf3 65. Rg6+ Kh7 66. Re6 h5 67. gxh5 Rf2+ 68. Kh3 Rxf5 69. Rd6 Ra5 70. Rc6 Ra3+ 71. Kxh4 Ra1 72. Rg6 Ra5 73. Rf6 Ra7 74. Rf4 Ra2 75. Rf7+ Kh6 76. Rf6+ Kg7 77. Rg6+ Kh8 78. Rg5 Ra1 79. Rb5 Kg7 80. Rb6 Kh7 81. Rc6 Ra4+ 82. Kg3 Ra3+ 83. Kf4 Ra7 84. Ke3 Rf7 85. Rd6 Re7+ 86. Kf4 Ra7 87. Rg6 Ra3 88. Re6 Ra4+ 89. Kg5 Ra5+ 90. Kg4 Ra7 91. Kh3 Ra5 92. Kh4 Ra7 93. Kg4 Ra5 94. Kg3 Rxh5 95. Kf4 Ra5 96. Re7+ Kh6 97. Re3 Kg6 98. Kg3 Ra2 99. Re4 Ra3+ 100. Kg4 Ra7 101. Re6+ Kh7 102. Kf5 Ra5+ 103. Kf4 Kg7 104. Re5 Ra2 105. Kg4 Ra4+ 106. Kg5 Ra7 107. Rf5 Ra2 108. Rf4 Rg2+ 109. Kf5 Ra2 110. Rg4+ Kf7 111. Rd4 Ra7 112. Rd6 Ra5+ 113. Kg4 Ra7 114. Rc6 Ra5 115. Rb6 Ra4+ 116. Kg5 Ra7 117. Rg6 Ra5+ 118. Kh6 Ra8 119. Rg7+ Kf6 120. Rg6+ Kf5 121. Rd6 Ra4 122. Rc6 Ra2 123. Rc8 Rh2+ 124. Kg7 Rg2+ 125. Kf7 Rf2 126. Rc7 Ra2 127. Re7 Rh2 128. Re3 Rh7+ 129. Kg8 Ra7 130. Kh8 Ra8+ 131. Kh7 Ra1 132. Rf3+ Ke4 133. Rg3 Kf4 134. Rg7 Ra8 135. Rf7+ Kg5 136. Kg7 Ra2 137. Rd7 Ra8 138. Rd5+ Kf4 139. Rc5 Ra7+ 140. Kg6 Ra6+ 141. Kh5 Ra8 142. Kh4 Rh8+ 143. Rh5 Rg8 144. Rd5 Rg1 145. Rd6 Rh1# 0-1
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "5.2"]
+[White "Br_cdrill_1800_Ha_stockfish_15"]
+[Black "Br_stockfish_15_Ha_cdrill_1800"]
+[Result "1/2-1/2"]
+[FEN "rnbqkbnr/pppp1ppp/8/4p3/8/1P6/P1PPPPPP/RNBQKBNR w KQkq - 0 2"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+2. Nc3 d5 3. e4 d4 4. Nb1 Nf6 5. Bb5+ c6 6. Bd3 Nbd7 7. Qe2 Nc5 8. a4 Be6 9. h4 Bg4 10. Nf3 Bd6 11. Bc4 Ncxe4 12. d3 Nc5 13. Bg5 Qe7 14. Nbd2 h6 15. b4 hxg5 16. bxc5 Bxc5 17. Qxe5 gxh4 18. Rb1 b6 19. Qxe7+ Kxe7 20. Ne5 Rac8 21. Ndf3 Bxf3 22. Nxf3 Nd5 23. Bxd5 cxd5 24. Ke2 Bd6 25. Kd1 Kd8 26. Nxd4 Bc5 27. Nf3 Bxf2 28. Rf1 Be3 29. Nd2 f6 30. Rf5 Ke7 31. Rxd5 h3 32. gxh3 Rxh3 33. a5 Rc5 34. Rxc5 Bxc5 35. axb6 Rh1+ 36. Ke2 Rh2+ 37. Kf3 axb6 38. Re1+ Kf7 39. Re2 Rxe2 40. Kxe2 Ke6 41. Nb3 Kd5 42. c3 g5 43. d4 Be7 44. Nd2 g4 45. Ke3 b5 46. Kf4 Bd8 47. Kxg4 Ba5 48. Nb1 Bb6 49. Kf5 Ba5 50. Kg4 Bc7 51. Na3 f5+ 52. Kf3 b4 53. cxb4 Kc6 54. Ke3 Bg3 55. Kd3 Bb8 56. Kc4 f4 57. d5+ Kd7 58. Kd3 f3 59. Ke3 Kd6 60. Kxf3 Kxd5 61. Nc4 Bc7 62. Ne5 Bxe5 63. b5 Kc5 64. b6 Kxb6 1/2-1/2
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "6.2"]
+[White "Br_cdrill_1800_Ha_stockfish_15"]
+[Black "Br_stockfish_15_Ha_cdrill_1800"]
+[Result "1-0"]
+[FEN "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+2. Qd3 d5 3. Bf4 e5 4. Bxe5 Ng4 5. Qg3 Nc6 6. Nc3 Ngxe5 7. dxe5 d4 8. O-O-O Be6 9. Nf3 h6 10. e3 a6 11. Nxd4 Nxd4 12. Rxd4 Qb8 13. Bc4 c5 14. Re4 Qc8 15. Rd1 b5 16. Nxb5 axb5 17. Bxb5+ Ke7 18. Qf4 Qc7 19. Ra4 Rd8 20. Rxd8 Kxd8 21. Ra8+ Bc8 22. Ba6 Qa5 23. Rxc8+ Ke7 24. Qg4 Qe1+ 25. Qd1 Qxd1+ 26. Kxd1 Ke6 27. Re8+ Kf5 28. Bd3+ Kg5 29. a4 h5 30. a5 h4 31. a6 h3 32. gxh3 Rxh3 33. a7 Rxh2 34. f4+ Kh4 35. a8=Q Kg3 36. Rd8 Kf2 37. Rd7 Be7 38. Rxe7 f5 39. Rd7 c4 40. Bxf5 g6 41. Rd2+ Kg1 42. Rxh2 Kxh2 43. Bg4 c3 44. Qf3 cxb2 45. Qf2+ Kh1 46. Bf3# 1-0
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "6.1"]
+[White "Br_stockfish_15_Ha_cdrill_1800"]
+[Black "Br_cdrill_1800_Ha_stockfish_15"]
+[Result "0-1"]
+[FEN "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+2. c4 e6 3. h4 Nc6 4. Nc3 d5 5. Nf3 Bb4 6. Bg5 h6 7. Bf4 dxc4 8. a4 Qe7 9. g3 Na5 10. Be5 Nd5 11. Qc2 f6 12. e4 Nb3 13. Rd1 Nb6 14. Bf4 Na5 15. Be2 Bd7 16. Kf1 O-O-O 17. g4 Kb8 18. h5 e5 19. dxe5 Bxg4 20. Nb5 fxe5 21. Rxd8+ Rxd8 22. Nxe5 Qf6 23. Bg3 Bxe2+ 24. Qxe2 Rd2 25. Qe3 Rxb2 26. Nd7+ Nxd7 27. Qxa7+ Kc8 28. Qa8+ Nb8 29. Na7+ Kd7 30. Qxb8 Qf3 31. Qc8+ Ke7 32. Qxc7+ Ke8 33. Qe5+ Kf8 34. Qb8+ Kf7 35. Qf4+ Qxf4 36. Bxf4 c3 37. Rh3 Rb1+ 38. Kg2 c2 39. Nb5 Rd1 40. Na3 c1=R 41. Bxc1 Rxc1 42. Rf3+ Ke7 43. Rf5 Nc6 44. Nb5 Rc4 45. Kf3 b6 46. Kf4 Bc5 47. Rd5 Bxf2 48. Nd6 Rxa4 49. Nc8+ Kf8 50. Rd6 Rc4 51. Rd3 Bg1 52. Rd1 Bh2+ 53. Kf3 b5 54. Nb6 Ne5+ 55. Ke3 Rc3+ 56. Kd2 b4 57. Rf1+ Ke8 58. Rf5 Rc6 59. Na4 b3 60. Kd1 Rc4 61. Nb2 Rc2 62. Na4 Bg3 63. Rf1 Ng4 64. Rf3 Nf2+ 65. Ke1 Nxe4+ 66. Kd1 Ra2 67. Rxb3 Rxa4 68. Rf3 Bd6 69. Rb3 Ra2 70. Re3 Ra4 71. Kc2 Rd4 72. Re1 Kf7 73. Ra1 Rd5 74. Ra4 Nf6 75. Ra6 Ne4 76. Ra4 Nf6 77. Ra6 Nxh5 78. Ra7+ Kg6 79. Ra1 Nf6 80. Ra4 h5 81. Rh4 Kg5 82. Rh3 h4 83. Kb1 Bg3 84. Rh1 Kg4 85. Kb2 h3 86. Ka2 Rc5 87. Rf1 h2 88. Rh1 Rd5 89. Kb3 Kh5 90. Kc4 g5 91. Rf1 Re5 92. Kb3 Rd5 93. Kc4 Ng4 94. Rh1 Rd8 95. Kb5 Nf6 96. Ka4 Nd7 97. Kb3 Nf6 98. Ka4 Nd7 99. Kb3 Nb6 100. Rf1 g4 101. Rf5+ Kg6 102. Rf1 Be5 103. Re1 g3 104. Ka2 g2 105. Kb3 g1=Q 106. Kb4 Qxe1+ 107. Kb5 Qb1+ 108. Kc6 h1=Q+ 109. Kc5 Bd4# 0-1
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "7.1"]
+[White "Br_stockfish_15_Ha_cdrill_1800"]
+[Black "Br_cdrill_1800_Ha_stockfish_15"]
+[Result "0-1"]
+[FEN "rnbqkbnr/ppp1pppp/8/3p4/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+2. e4 dxe4 3. Nc3 Nf6 4. Bc4 Bf5 5. Nge2 e6 6. h4 Nc6 7. Bg5 Na5 8. Bb3 Nxb3 9. axb3 Be7 10. Qc1 h6 11. Bf4 O-O 12. Qe3 a5 13. h5 Nd5 14. Nxd5 exd5 15. Qg3 Bg5 16. Bxc7 Qd7 17. Bf4 f6 18. c4 Be6 19. Nc3 b6 20. O-O dxc4 21. Bd6 Rfd8 22. Bc7 Rdc8 23. Bxb6 f5 24. f4 exf3 25. Qxf3 Ra6 26. d5 Rxb6 27. dxe6 Qxe6 28. Rae1 Qd7 29. bxc4 Qd4+ 30. Kh1 Qh4+ 31. Kg1 Bf6 32. g3 Qh3 33. Rf2 f4 34. Qxf4 Bxc3 35. bxc3 Qxh5 36. Qe4 Rbb8 37. Kg2 Kh8 38. Qd5 Qxd5+ 39. cxd5 Rxc3 40. Re6 Rbb3 41. Rg6 Rb7 42. Ra2 Rd3 43. Rxa5 Rb2+ 44. Kh3 Rb7 45. d6 Kh7 46. Re6 Rbb3 47. Kh2 Rxg3 48. Rb5 Rbc3 49. Rd5 Rgd3 50. Rxd3 Rxd3 51. Kg2 Kg8 52. Kh2 Kf7 53. Re7+ Kf6 54. Rd7 h5 55. Kh1 g6 56. Kh2 Rd5 57. Kh3 Ke5 58. Rf7 Rxd6 59. Kh4 Rd4+ 60. Kh3 g5 61. Rf8 Rd3+ 62. Kh2 h4 63. Kh1 g4 64. Rf2 h3 65. Re2+ Kf4 66. Kh2 Kf3 67. Rc2 Re3 68. Rc1 Re2+ 69. Kh1 g3 70. Rb1 Re3 71. Ra1 Re4 72. Rb1 Kg4 73. Rg1 Rb4 74. Re1 h2 75. Re4+ Rxe4 76. Kg2 Re2+ 77. Kh1 Re1+ 78. Kg2 h1=Q# 0-1
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "8.1"]
+[White "Br_stockfish_15_Ha_cdrill_1800"]
+[Black "Br_cdrill_1800_Ha_stockfish_15"]
+[Result "0-1"]
+[FEN "rnbqkbnr/pppp1ppp/4p3/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+2. e4 Nc6 3. Nf3 Nf6 4. e5 Nd5 5. Bd3 d6 6. c4 Ndb4 7. exd6 Nxd3+ 8. Qxd3 Bxd6 9. O-O Qd7 10. Nbd2 b6 11. a4 Bb7 12. Ne4 f6 13. Ng3 O-O-O 14. Rd1 Be7 15. Qe4 Nxd4 16. Qxd4 Qc6 17. Ne1 Rxd4 18. Rxd4 Rf8 19. Be3 Bb4 20. Bd2 Bc5 21. Re4 Qd7 22. Re2 a5 23. Be3 Bxe3 24. Rxe3 Qd2 25. Rxe6 Qxb2 26. Rd1 Rd8 27. Rxd8+ Kxd8 28. Nh5 f5 29. h3 Be4 30. f3 Kd7 31. Nf4 Qd4+ 32. Kh1 Qd2 33. fxe4 Qxf4 34. exf5 Qxf5 35. Re3 Qf1+ 36. Kh2 Qxc4 37. Rg3 Qf4 38. Nd3 Qd4 39. Rf3 c5 40. Nf4 Qe5 41. g3 Qb2+ 42. Kg1 Kc6 43. Re3 Qd4 44. Kf2 Qxa4 45. Re6+ Kb5 46. h4 Qd4+ 47. Re3 Kb4 48. Ne2 Qb2 49. Kg2 Qd2 50. Re4+ c4 51. Kf2 a4 52. Rd4 Qb2 53. h5 a3 54. Rd6 Kc5 55. Rd1 a2 56. Ke1 b5 57. Nf4 Qe5+ 58. Kf2 b4 59. h6 gxh6 60. Rc1 Qb2+ 61. Ne2 b3 62. g4 Qf6+ 63. Kg3 b2 64. Rd1 b1=Q 65. Rxb1 axb1=Q 66. g5 Qe5+ 67. Kf2 Qh2+ 68. Kf3 Qf5+ 69. Nf4 Qfxf4# 0-1
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "9.1"]
+[White "Br_stockfish_15_Ha_cdrill_1800"]
+[Black "Br_cdrill_1800_Ha_stockfish_15"]
+[Result "1/2-1/2"]
+[FEN "rnbqkbnr/pppp1ppp/8/4p3/2P5/8/PP1PPPPP/RNBQKBNR w KQkq - 0 2"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+2. e3 Qe7 3. d4 Nf6 4. b3 exd4 5. Qxd4 Nc6 6. Qc3 Ne4 7. Qb2 Qg5 8. a3 Nc5 9. Nd2 a5 10. Ngf3 Qg6 11. h3 d6 12. Nh4 Qh6 13. Nhf3 Be7 14. Qc2 Bf6 15. Ra2 Bd7 16. Bb2 Bxb2 17. Rxb2 Be6 18. Ne4 O-O 19. Nxc5 dxc5 20. Be2 f5 21. O-O f4 22. e4 Qf6 23. e5 Nxe5 24. Nxe5 Qxe5 25. Bf3 c6 26. Qe2 Qxe2 27. Rxe2 Bf5 28. Rfe1 a4 29. bxa4 Rxa4 30. Re7 Rf7 31. Re8+ Rf8 32. R8e7 Rf7 33. Re8+ Rf8 34. R8e7 Rf7 35. Re8+ Rf8 36. R8e7 Rf7 37. Re8+ Rf8 38. R8e7 1/2-1/2
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "10.1"]
+[White "Br_stockfish_15_Ha_cdrill_1800"]
+[Black "Br_cdrill_1800_Ha_stockfish_15"]
+[Result "1/2-1/2"]
+[FEN "rnbqkbnr/pp1ppppp/8/2p5/2P5/8/PP1PPPPP/RNBQKBNR w KQkq - 0 2"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+2. Nf3 g6 3. d4 cxd4 4. Nxd4 d5 5. cxd5 Qxd5 6. Nc3 Qd8 7. e4 a6 8. f4 Nc6 9. Be3 Bg7 10. Nxc6 Qxd1+ 11. Rxd1 Bxc3+ 12. bxc3 bxc6 13. Bd4 Nf6 14. Bxf6 exf6 15. Be2 Rb8 16. O-O Rb2 17. Bc4 Rc2 18. Rd3 O-O 19. Rg3 Bd7 20. a4 a5 21. Rd1 Bc8 22. Rd6 Re8 23. Rxc6 Rc1+ 24. Kf2 Rc2+ 25. Kf1 Bd7 26. Rxf6 Rxe4 27. Bxf7+ Kg7 28. Bxg6 Rc1+ 29. Kf2 Re7 30. Rb6 hxg6 31. Rgxg6+ Kh7 32. Rh6+ Kg8 33. Rbg6+ Kf7 34. Rg5 Rc2+ 35. Kg3 Bxa4 36. c4 Re3+ 37. Kh4 Re4 38. Rh7+ Kf6 39. h3 Rxf4+ 40. g4 Rcxc4 41. Rxa5 Rf3 42. Ra6+ Ke5 43. Re7+ Kd5 44. Ree6 Rfc3 45. Red6+ Ke4 46. Rd2 Rc1 47. Re6+ Kf3 48. Ree2 Rc7 49. Rf2+ Ke4 50. Rfe2+ Kf4 51. Rf2+ Ke3 52. Rfe2+ Kf4 53. Rf2+ Ke4 54. Rfe2+ Kf4 55. Rf2+ Ke4 56. Rfe2+ Kf4 57. Rf2+ Ke4 58. Rfe2+ Kf3 59. Rf2+ Ke4 1/2-1/2
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "9.2"]
+[White "Br_cdrill_1800_Ha_stockfish_15"]
+[Black "Br_stockfish_15_Ha_cdrill_1800"]
+[Result "1/2-1/2"]
+[FEN "rnbqkbnr/pppp1ppp/8/4p3/2P5/8/PP1PPPPP/RNBQKBNR w KQkq - 0 2"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+2. g3 d5 3. cxd5 Nf6 4. e4 c6 5. Nf3 Nxe4 6. Nc3 Nxc3 7. dxc3 f6 8. Bc4 Bf5 9. dxc6 Qxd1+ 10. Kxd1 Nxc6 11. Nd2 g6 12. Rg1 h5 13. Ke1 a5 14. Nf1 e4 15. Be2 Ne5 16. Ne3 Be6 17. Bd2 Rd8 18. c4 a4 19. Bc3 Kf7 20. Bxe5 fxe5 21. a3 Bc5 22. Rd1 Rhf8 23. Rxd8 Rxd8 24. h4 Bxe3 25. fxe3 Rc8 26. Rf1+ Kg7 27. Rf2 Bxc4 28. Bxc4 Rxc4 29. Kd1 Rc6 30. Rg2 Rd6+ 31. Kc2 Rd3 32. g4 Kf7 33. gxh5 gxh5 34. Rg5 Kf6 35. Rxh5 Rxe3 36. Kd2 Rb3 37. Rh7 Kf5 38. Rf7+ Kg4 39. Re7 e3+ 40. Ke1 Kf3 41. Rf7+ Ke4 42. h5 Rb6 43. Rg7 Rh6 44. Ke2 Rxh5 45. Rg4+ Kd5 46. Rxa4 Rh2+ 47. Kxe3 Rxb2 48. Ra5+ Ke6 49. Ra8 Ra2 50. Ra7 b5 51. Ra5 Ra1 52. Kd2 e4 53. Ke3 Re1+ 54. Kd2 Rb1 55. Kc2 e3 56. Kd3 Rb3+ 57. Ke2 Kd6 58. Kf3 Kc7 59. a4 b4 60. Rb5 Kd6 61. Rg5 Kc6 62. Rb5 Kd7 63. Rb6 Kc8 64. a5 Kc7 65. Ke2 Rb1 66. Kxe3 Rb2 67. Rb5 Kc6 68. Rb8 Ra2 69. a6 Kc5 70. Rc8+ Kb6 71. Re8 Rxa6 72. Re6+ Ka7 73. Re7+ Kb8 74. Re8+ Kc7 75. Re4 Kd7 76. Rh4 Ke7 77. Rh7+ Kd8 78. Kd2 Ra2+ 79. Kd3 Rf2 80. Ke3 Rc2 81. Kd3 Rc3+ 82. Kd2 Rg3 83. Kc1 Rg2 84. Rb7 b3 85. Rb4 b2+ 86. Kb1 Rf2 87. Rxb2 Rxb2+ 88. Kxb2 1/2-1/2
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "7.2"]
+[White "Br_cdrill_1800_Ha_stockfish_15"]
+[Black "Br_stockfish_15_Ha_cdrill_1800"]
+[Result "0-1"]
+[FEN "rnbqkbnr/ppp1pppp/8/3p4/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+2. Qd2 Nc6 3. Qd1 e6 4. Nf3 Nf6 5. Nc3 b6 6. Bg5 Bb4 7. Ne5 Qd6 8. Bxf6 Bxc3+ 9. bxc3 gxf6 10. Nxc6 Qxc6 11. Qd2 Qb5 12. e3 Qb2 13. Rd1 Qxa2 14. Bb5+ Bd7 15. Bd3 Bc6 16. O-O Qa3 17. c4 dxc4 18. Bxc4 h5 19. e4 O-O-O 20. Rfe1 b5 21. Bf1 Rhg8 22. c3 Qd6 23. c4 bxc4 24. Bxc4 Bb7 25. d5 exd5 26. Bxd5 Bxd5 27. Qxd5 Qxd5 28. exd5 h4 29. Ra1 h3 30. g3 Rxd5 31. Rxa7 Rgd8 32. Ra4 Rd1 33. Kf1 Rxe1+ 34. Kxe1 Kd7 35. Rd4+ Ke7 36. Rc4 f5 37. Rxc7+ Kf6 38. Ra7 Rb8 39. Ra5 Rb1+ 40. Ke2 Kg6 41. Ra8 Rh1 42. Rh8 Rxh2 43. Rh4 Kg7 44. Ke3 Kf8 45. Rh7 Kg8 46. Rh4 Kg7 47. Rh5 Kg6 48. Rh8 Rh1 49. Kf4 Rf1 50. Kf3 Rh1 51. Ke2 f4 52. Kf3 fxg3 53. Kxg3 Rg1+ 54. Kh2 Rg2+ 55. Kxh3 Rxf2 56. Ra8 Rf6 57. Ra5 Rc6 58. Ra7 Rc3+ 59. Kg4 Rc4+ 60. Kf3 Rb4 61. Ra6+ Kg5 62. Ra5+ Kf6 63. Ra2 Kg7 64. Ra6 Rb1 65. Kf4 Rf1+ 66. Kg4 Rg1+ 67. Kf5 Rh1 68. Kg4 Rc1 69. Rb6 Rg1+ 70. Kf4 Rf1+ 71. Ke3 Rf5 72. Ke2 Rg5 73. Ra6 Rg4 74. Ra8 Re4+ 75. Kf3 Re5 76. Ra6 Rb5 77. Ke2 Rb3 78. Ra7 Kg6 79. Ra1 f5 80. Rg1+ Kf6 81. Ra1 Rb4 82. Kf3 Kg6 83. Ra6+ Kg5 84. Ra1 Rb3+ 85. Ke2 Rg3 86. Ra6 Rc3 87. Ra1 Rc2+ 88. Kf3 Rc8 89. Rg1+ Kf6 90. Ra1 Rc3+ 91. Ke2 Kg6 92. Ra2 Kh5 93. Ra7 Kg4 94. Rg7+ Kf4 95. Kf2 Rc2+ 96. Kg1 Rc4 97. Rf7 Rc1+ 98. Kf2 Rc2+ 99. Kg1 Rb2 100. Rg7 Kf3 101. Ra7 Rc2 102. Ra3+ Kg4 103. Ra8 Rb2 104. Ra3 Rd2 105. Rb3 Rc2 106. Rb4+ f4 107. Rb3 Re2 108. Ra3 Kf5 109. Ra5+ Ke4 110. Ra8 Kf3 111. Kf1 Rb2 112. Kg1 Rb1+ 113. Kh2 Rd1 114. Ra3+ Ke4 115. Ra2 Kf5 116. Rb2 Rd3 117. Rg2 Re3 118. Rb2 Rc3 119. Kg1 Ra3 120. Kg2 Kg4 121. Kh2 Kh4 122. Kg2 Kg5 123. Rb6 Rg3+ 124. Kf2 Rh3 125. Rb8 Rc3 126. Rg8+ Kf6 127. Rf8+ Ke5 128. Re8+ Kd5 129. Re1 Kd4 130. Re2 Rb3 131. Re8 Rg3 132. Rf8 Ke4 133. Re8+ Kd5 134. Re7 Ra3 135. Re1 Rc3 136. Re8 Rb3 137. Rd8+ Ke5 138. Re8+ Kf6 139. Rf8+ Kg5 140. Re8 Kh5 141. Rg8 Ra3 142. Rg7 Rc3 143. Rg8 Rd3 144. Rg7 Ra3 145. Rg8 Re3 146. Rg7 Rd3 147. Kg2 Kh4 148. Kf2 Rb3 149. Ra7 Kg4 150. Rg7+ Kf5 151. Rg8 Rc3 152. Rh8 Ra3 153. Rf8+ Ke5 154. Re8+ Kd6 155. Rb8 Kc7 156. Rb2 Ra4 157. Rb1 Ra5 158. Ra1 Rxa1 159. Kf3 Rf1+ 160. Ke4 Kd6 161. Kd3 Re1 162. Kd2 Re5 163. Kd3 f3 164. Kc2 f2 165. Kb3 f1=Q 166. Kb4 Re4+ 167. Kb3 Rd4 168. Kb2 Rd2+ 169. Kb3 Kc5 170. Ka4 Qc4+ 171. Ka3 Qb4# 0-1
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "8.2"]
+[White "Br_cdrill_1800_Ha_stockfish_15"]
+[Black "Br_stockfish_15_Ha_cdrill_1800"]
+[Result "1/2-1/2"]
+[FEN "rnbqkbnr/pppp1ppp/4p3/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+2. c4 Nc6 3. e3 Nh6 4. Nc3 Bb4 5. Qb3 a5 6. h3 a4 7. Qc2 d5 8. Nf3 O-O 9. cxd5 exd5 10. a3 Bxc3+ 11. bxc3 Bf5 12. Bd3 Qf6 13. Bxf5 Qxf5 14. Qa2 Na5 15. Qb2 b5 16. O-O c6 17. Qa2 Nb3 18. Rb1 Qh5 19. Qc2 Rfe8 20. Bd2 Qf5 21. Qd1 Qg6 22. Ne5 Qe4 23. f3 Qh4 24. Be1 Qg5 25. e4 dxe4 26. fxe4 Qe3+ 27. Kh1 Qxe4 28. Bd2 Nf5 29. Rf4 Ng3+ 30. Kh2 Qd5 31. Be1 f6 32. Bxg3 fxe5 33. dxe5 Rxe5 34. Qxd5+ Rxd5 35. Re1 Rf8 36. Rg4 h5 37. Rg6 Nd2 38. Bh4 c5 39. Rb6 Rd3 40. Bg5 Rf2 41. Kg1 Rf5 42. Bh4 Rxc3 43. Rxb5 Rxa3 44. Kh1 g5 45. Rb8+ Kg7 46. Rd1 Rb3 47. Ra8 Rd3 48. Ra7+ Kf6 49. Ra6+ Kf7 50. Ra7+ Kg8 51. Ra8+ Kh7 52. Ra7+ Kg6 53. Ra6+ Kh7 54. Ra7+ Kh6 55. Ra6+ Kg7 56. Ra7+ Kf8 57. Ra8+ Ke7 58. Bg3 Rd4 59. Re1+ Ne4 60. Kg1 Kf7 61. Bc7 Kg6 62. Kh2 Kg7 63. Ra1 Kh7 64. R8xa4 Kg6 65. Ra8 Rd3 66. Re8 Nf6 67. Re6 Kf7 68. Rc6 Nd7 69. Rca6 c4 70. Rc1 Rd4 71. Ra7 g4 72. Bb6 Rd3 73. hxg4 hxg4 74. Rxc4 Rh5+ 75. Kg1 g3 76. Rd4 Rd5 77. Rxd3 Rxd3 78. Kf1 Rd2 79. Be3 Rd3 80. Ke2 Rd6 81. Bf4 Rd4 82. Ke3 Rd5 83. Ke4 Rd1 84. Kf5 Rd5+ 85. Ke4 Rd1 86. Kf3 Rd3+ 87. Ke2 Rd4 88. Be3 Rd6 89. Bc5 Rd5 90. Bf2 Kg6 91. Ra4 Nc5 92. Ra3 Ne4 93. Be3 Nd6 94. Bf4 Nf5 95. Bd2 Nd4+ 96. Kd1 Nf5 97. Ke2 Rd4 98. Ra6+ Kh5 99. Ra5 Kg4 100. Ra8 Ne7 101. Ke3 Rf4 102. Kd3 Rf2 103. Ra4+ Kf5 104. Be1 Rxg2 105. Ke3 Ng6 106. Kf3 Nh4+ 107. Rxh4 Rc2 108. Bxg3 Rc3+ 109. Ke2 Rxg3 110. Ra4 Rb3 111. Ra1 Kf4 112. Ra7 Rc3 113. Ra4+ Kg3 114. Ra1 Rb3 115. Ra4 Rb5 116. Kd3 Kh3 117. Kc4 Rb6 118. Ra1 Kg3 119. Ra4 Rd6 120. Ra3+ Kh2 121. Ra1 Kh3 122. Kc5 Rd8 123. Ra4 Rf8 124. Ra3+ Kh4 125. Ra4+ Kg3 126. Ra1 Rf2 127. Ra3+ Kh2 128. Ra7 Rc2+ 129. Kd5 Kg1 130. Kd4 Rg2 131. Kd3 Rg4 132. Ra2 Rf4 133. Ke3 Rf5 134. Ke4 Rf6 135. Ra7 Kf2 136. Ke5 Rf8 137. Ra2+ Kf3 138. Ra1 Rd8 139. Ra3+ Kg4 140. Ra4+ Kg3 141. Ra3+ Kh4 142. Ra1 Kh3 143. Ra7 Kg2 144. Ra2+ Kg1 145. Ra7 Kf2 146. Ra2+ Ke3 147. Ra3+ Kd2 148. Ra2+ Kd3 149. Ra1 Rf8 150. Kd5 Rc8 151. Ra3+ Kc2 152. Rh3 Rc7 153. Rg3 Rc3 154. Rxc3+ Kxc3 1/2-1/2
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "10.2"]
+[White "Br_cdrill_1800_Ha_stockfish_15"]
+[Black "Br_stockfish_15_Ha_cdrill_1800"]
+[Result "1/2-1/2"]
+[FEN "rnbqkbnr/pp1ppppp/8/2p5/2P5/8/PP1PPPPP/RNBQKBNR w KQkq - 0 2"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+2. e3 Nf6 3. Qa4 e5 4. Nc3 Be7 5. g3 Kf8 6. Nf3 Nc6 7. Qb3 e4 8. Ng5 Ne5 9. Ngxe4 Nxe4 10. Nxe4 f5 11. Nc3 b6 12. Bg2 Ba6 13. Qc2 Bf6 14. b3 g6 15. Bb2 Nc6 16. Nd5 Bg7 17. Bxg7+ Kxg7 18. Qc3+ Kh6 19. a3 g5 20. h4 g4 21. Nc7 Bb7 22. Nxa8 Bxa8 23. Bd5 Re8 24. O-O-O Ne5 25. d4 Bxd5 26. cxd5 cxd4 27. exd4 Nf3 28. Qc2 Re4 29. Kb1 Qf8 30. a4 Qb4 31. Ka2 Qe7 32. Qc1+ Kg7 33. Kb1 Re2 34. Ka1 Qb4 35. Rd3 Nxd4 36. Qg5+ Kf7 37. Qh5+ Kg8 38. Kb1 Nf3 39. Re3 Rxe3 40. fxe3 Qxb3+ 41. Ka1 Qxa4+ 42. Kb2 Qb4+ 43. Ka1 Qa3+ 44. Kb1 Qb3+ 45. Ka1 Qxd5 46. Qe8+ Kg7 47. Qe7+ Qf7 48. Qb4 Qf6+ 49. Kb1 a5 50. Qb5 Ne5 51. Rd1 Qe6 52. Rd4 Kh8 53. Rd5 d6 54. Rd4 Nf3 55. Rd1 Qe4+ 56. Ka2 Ne5 57. Qe8+ Kg7 58. Rxd6 Qc2+ 59. Ka1 Qc3+ 60. Ka2 Qc2+ 61. Ka1 Qc3+ 62. Ka2 Qc2+ 63. Ka1 Qc3+ 64. Ka2 Qc2+ 65. Ka1 Qc3+ 66. Ka2 Qc2+ 1/2-1/2
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "11.1"]
+[White "Br_stockfish_15_Ha_cdrill_1800"]
+[Black "Br_cdrill_1800_Ha_stockfish_15"]
+[Result "1-0"]
+[FEN "rnbqkbnr/ppp1pppp/8/3p4/8/5N2/PPPPPPPP/RNBQKB1R w KQkq - 0 2"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+2. d4 Qd6 3. e4 dxe4 4. Ng5 Qg6 5. Nc3 Qb6 6. Bb5+ Bd7 7. Nd5 Qd6 8. c4 Bxb5 9. Bf4 e5 10. dxe5 Qd7 11. e6 Bb4+ 12. Nxb4 Qxd1+ 13. Rxd1 Bxc4 14. Nxf7 c5 15. Rd8+ Ke7 16. Rxb8 Rxb8 17. Bxb8 cxb4 18. Nxh8 a5 19. Nf7 Bxa2 20. Ng5 Nf6 21. Ba7 Bxe6 22. Nxe6 Kxe6 23. O-O a4 24. f3 exf3 25. gxf3 b3 26. Re1+ Kd6 27. Kh1 Nd5 28. Rc1 b5 29. Bc5+ Ke6 30. Re1+ Kd7 31. Bd4 g6 32. Rc1 b4 33. Ra1 a3 34. bxa3 bxa3 35. Rxa3 g5 36. Rxb3 h5 37. Rb8 Nf4 38. Be3 Ne6 39. Rh8 h4 40. Rh7+ Ke8 41. Rh5 Kf7 42. Bxg5 Ke8 43. Bxh4 Kf8 44. Bf6 Kf7 45. Bc3 Kg6 46. Rh4 Nd8 47. Rg4+ Kf5 48. h4 Ne6 49. Rg8 Nc7 50. Rg5+ Ke6 51. h5 Ne8 52. Re5+ Kf7 53. Rxe8 Kxe8 54. h6 Kd7 55. h7 Kc6 56. h8=Q Kb5 57. Qe5+ Kc6 58. f4 Kb6 59. f5 Ka6 60. f6 Kb7 61. f7 Ka6 62. f8=Q Kb7 63. Qfb8+ Ka6 64. Qed6# 1-0
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "11.2"]
+[White "Br_cdrill_1800_Ha_stockfish_15"]
+[Black "Br_stockfish_15_Ha_cdrill_1800"]
+[Result "1/2-1/2"]
+[FEN "rnbqkbnr/ppp1pppp/8/3p4/8/5N2/PPPPPPPP/RNBQKB1R w KQkq - 0 2"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+2. d4 h6 3. Qd3 e6 4. Qd1 g5 5. Nc3 Nc6 6. h4 g4 7. Ne5 Nxe5 8. dxe5 Ne7 9. e4 d4 10. Ne2 c5 11. Ng3 h5 12. Bg5 Qb6 13. Qc1 Ng6 14. a4 Be7 15. Bxe7 Nxe7 16. Be2 Nc6 17. Bb5 Bd7 18. Qg5 Qa5+ 19. Kf1 Nb4 20. Bd3 c4 21. Qf6 Rh7 22. Qg5 cxd3 23. Qg8+ Ke7 24. Qxa8 dxc2 25. Qg8 Qc5 26. Rc1 d3 27. Qg5+ Kf8 28. Nxh5 Rxh5 29. Qxh5 Bxa4 30. Qh6+ Ke8 31. Ra1 Bb5 32. Kg1 g3 33. Qf4 a5 34. Qxg3 c1=Q+ 35. Rxc1 Qxc1+ 36. Kh2 Qh6 37. Qg8+ Qf8 38. Qg5 Nc2 39. Kh3 Qe7 40. Qg8+ Qf8 41. Qg5 Qb4 42. Qg8+ Ke7 43. Qb8 Qd4 44. Qxb7+ Bd7 45. Rd1 Nb4 46. Qc7 Qxe4 47. Qd6+ Kd8 48. Qb8+ Bc8 49. Qd6+ Ke8 50. Qc7 Qf5+ 51. Kg3 Bd7 52. Qb8+ Ke7 53. Qd6+ Kd8 54. Qf8+ Be8 55. Qd6+ Bd7 56. Qf8+ Kc7 57. Qd6+ Kc8 58. Rc1+ Nc2 59. Rd1 Nb4 60. Rc1+ Nc2 61. Rd1 Nb4 62. Rc1+ Nc2 63. Rd1 Nb4 64. Rc1+ Nc2 65. Rd1 Nb4 1/2-1/2
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "12.2"]
+[White "Br_cdrill_1800_Ha_stockfish_15"]
+[Black "Br_stockfish_15_Ha_cdrill_1800"]
+[Result "1-0"]
+[FEN "rnbqkbnr/ppppp1pp/8/5p2/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+2. Bf4 d5 3. Nf3 e6 4. Qc1 Nf6 5. e3 a5 6. Nbd2 Bd6 7. Bd3 O-O 8. c4 dxc4 9. Bxc4 Bxf4 10. exf4 Nc6 11. Qc3 Qd6 12. g3 Rd8 13. O-O Nxd4 14. Rfd1 c5 15. a4 Nd5 16. Qc1 Nb6 17. Nxd4 Qxd4 18. Bb5 h6 19. Qc2 Nd5 20. Nf3 Qe4 21. Rd3 Bd7 22. Re1 Bxb5 23. Rxe4 fxe4 24. Rd2 Bd3 25. Qd1 c4 26. Ne5 Rd6 27. Qh5 Rf8 28. Rd1 Nb6 29. Rc1 Nxa4 30. Rxc4 Bxc4 31. Nxc4 Rd5 32. Qg6 Rd1+ 33. Kg2 Nc5 34. Nxa5 Rb1 35. Nb3 Rf6 36. Qe8+ Rf8 37. Qg6 Rf6 38. Qe8+ Rf8 39. Qe7 Nxb3 40. Qxe6+ Rf7 41. Qxb3 Re1 42. Qe6 e3 43. fxe3 Re2+ 44. Kh3 Rxb2 45. e4 Rc2 46. e5 Rb2 47. Qd5 Rc2 48. e6 Rcc7 49. exf7+ Kf8 50. Qd8+ Kxf7 51. Qxc7+ Kg8 52. Qd8+ Kh7 53. Qe7 b5 54. f5 b4 55. f6 Kg6 56. f7 b3 57. f8=Q b2 58. Qexg7+ Kh5 59. Qxh6# 1-0
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "12.1"]
+[White "Br_stockfish_15_Ha_cdrill_1800"]
+[Black "Br_cdrill_1800_Ha_stockfish_15"]
+[Result "0-1"]
+[FEN "rnbqkbnr/ppppp1pp/8/5p2/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+2. d5 e6 3. Be3 Qf6 4. Nc3 Bb4 5. Bd2 Ne7 6. dxe6 Qxe6 7. e3 O-O 8. Nh3 c6 9. a3 Ba5 10. Nf4 Qf7 11. Nb1 Bc7 12. Bc3 Bxf4 13. exf4 Nd5 14. Bc4 Re8+ 15. Kd2 Re4 16. b3 b5 17. Bxd5 Qxd5+ 18. Kc1 Qxd1+ 19. Rxd1 Rxf4 20. Rd2 d5 21. f3 Nd7 22. Re2 d4 23. Bd2 Rh4 24. g3 Rh3 25. Bf4 a5 26. Nd2 Nf6 27. Be5 c5 28. Kb2 Rh6 29. Bf4 Rh3 30. Be5 Ra6 31. a4 b4 32. Rae1 Bb7 33. Bxf6 Rxf6 34. Rf2 Rfh6 35. Nf1 R3h5 36. Re8+ Kf7 37. Re5 f4 38. Ree2 Ba6 39. Re1 Bxf1 40. Rexf1 Rxh2 41. gxf4 R6h3 42. Rxh2 Rxh2 43. Kb1 Rh3 44. Rf2 Kf6 45. Rg2 Rxf3 46. Rg5 Rxf4 47. Rxc5 Rf5 48. Rc6+ Kg5 49. Rd6 h5 50. Rxd4 h4 51. Rd3 Kg4 52. c4 bxc3 53. Rxc3 h3 54. Rc2 Rf4 55. Ka2 g5 56. b4 Rxb4 57. Ka3 Kh4 58. Rd2 g4 59. Rd6 h2 60. Re6 Rf4 61. Kb3 g3 62. Rh6+ Kg4 63. Rh8 g2 64. Rg8+ Kf3 65. Rxg2 Kxg2 66. Kc3 h1=R 67. Kb2 Rh3 68. Kc1 Rf2 69. Kb1 Rh1# 0-1
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "13.2"]
+[White "Br_cdrill_1800_Ha_stockfish_15"]
+[Black "Br_stockfish_15_Ha_cdrill_1800"]
+[Result "0-1"]
+[FEN "rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R w KQkq - 0 6"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+6. Be3 Nc6 7. Nxc6 bxc6 8. Bc4 e6 9. Qf3 Bd7 10. g4 d5 11. Bd3 h5 12. gxh5 Nxh5 13. h3 Rb8 14. Bc1 Bc5 15. a4 d4 16. Ne2 a5 17. Bd2 e5 18. Bc4 Qf6 19. Qxf6 Nxf6 20. Bd3 Bg4 21. Bxa5 Bf3 22. Rg1 Rxh3 23. Rxg7 Ng4 24. Rg8+ Ke7 25. Rxb8 Rh1+ 26. Kd2 Rxa1 27. Rb7+ Kf8 28. Bb4 Bxb4+ 29. Rxb4 c5 30. Rb8+ Kg7 31. Nc1 Nxf2 32. Re8 c4 33. Rxe5 cxd3 34. Rf5 Nxe4+ 35. Kxd3 Bg4 36. Nb3 Rxa4 37. Rf1 Be2+ 38. Kxe2 Ng3+ 39. Kd3 Nxf1 40. Nxd4 Ng3 41. b3 Ra5 42. b4 Ra6 43. b5 Rd6 44. Kc4 f5 45. Nc6 Ne4 46. Ne5 f4 47. Nf3 Kh8 48. Kb4 Kh7 49. c4 Rg6 50. c5 Rg3 51. c6 Rxf3 52. c7 Nc3 53. c8=N Na2+ 54. Kc5 Rc3+ 55. Kd4 Rxc8 56. Kd3 Re8 57. b6 f3 58. Kd4 f2 59. Kc5 f1=Q 60. b7 Qc1+ 61. Kb5 Rb8 62. Kb6 Qb2+ 63. Kc5 Qe5+ 64. Kc4 Nc1 65. Kb4 Rxb7+ 66. Kc4 Qd6 67. Kc3 Qd3# 0-1
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "13.1"]
+[White "Br_stockfish_15_Ha_cdrill_1800"]
+[Black "Br_cdrill_1800_Ha_stockfish_15"]
+[Result "1-0"]
+[FEN "rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R w KQkq - 0 6"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+6. a4 Nc6 7. Bg5 Qb6 8. Nxc6 bxc6 9. Qd2 Rb8 10. Be2 Bb7 11. O-O a5 12. e5 dxe5 13. Rad1 Rd8 14. Be3 Rxd2 15. Bxb6 Rd7 16. Rxd7 Nxd7 17. Bxa5 e6 18. Rd1 Be7 19. b3 g6 20. Ne4 f5 21. Nd6+ Bxd6 22. Rxd6 Ke7 23. Rd1 Ba8 24. Bc3 Rb8 25. Bc4 Rc8 26. a5 Rb8 27. Bd2 Rc8 28. Bg5+ Nf6 29. a6 Rb8 30. h4 c5 31. Rd2 Rc8 32. Bxf6+ Kxf6 33. Rd6 Re8 34. Rd7 h6 35. Rc7 Rb8 36. Rxc5 Be4 37. Ra5 Rd8 38. a7 Ba8 39. Ra6 Re8 40. b4 e4 41. b5 f4 42. b6 Rd8 43. Ra4 Rd1+ 44. Kh2 e3 45. Ba6 exf2 46. Rxf4+ Kg7 47. Rxf2 Ra1 48. Be2 Rb1 49. Bf3 Rxb6 50. Bxa8 Ra6 51. c4 Rxa7 52. Be4 Rc7 53. Rc2 Rc5 54. Kh3 Re5 55. Bf3 Rc5 56. Kh2 g5 57. h5 Kf6 58. Kh3 Ke5 59. Kg4 Kd6 60. Kg3 Kd7 61. Be4 Ke7 62. Bg6 e5 63. Kf2 Kd6 64. Kg1 Kd7 65. Kh2 Kd6 66. Kh3 Ke6 67. Kg4 Rc7 68. Kf3 Rb7 69. c5 Rb3+ 70. Kf2 Kd7 71. c6+ Kc7 72. Be4 Rb4 73. Ke3 Rb3+ 74. Ke2 Rb4 75. Kd3 Ra4 76. Rc5 Ra3+ 77. Rc3 Ra8 78. g4 Rd8+ 79. Ke3 Rd1 80. Rc5 Re1+ 81. Kf3 Ra1 82. Rxe5 Ra3+ 83. Ke2 Rg3 84. Re7+ Kd6 85. Rd7+ Ke5 86. c7 Rc3 87. Bb7 Rc2+ 88. Kd3 Rc1 89. c8=Q Rxc8 90. Bxc8 Ke6 91. Rh7+ Kd5 92. Rxh6 Ke5 93. Re6+ Kf4 94. Re2 Kf3 95. h6 Kf4 96. h7 Kg3 97. h8=Q Kf4 98. Qe5+ Kf3 99. Qe3# 1-0
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "14.1"]
+[White "Br_stockfish_15_Ha_cdrill_1800"]
+[Black "Br_cdrill_1800_Ha_stockfish_15"]
+[Result "0-1"]
+[FEN "r1bqk2r/1pppbppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 4 6"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+6. Re1 b5 7. Bb3 Bb7 8. d4 d6 9. dxe5 dxe5 10. Nc3 Qxd1 11. Nxd1 Nd7 12. a3 Nd4 13. Nxd4 exd4 14. Bf4 c5 15. Bd5 Ra7 16. f3 O-O 17. h3 a5 18. b3 Nb6 19. Bxb7 Rxb7 20. a4 bxa4 21. bxa4 g5 22. Bg3 Nc4 23. Nf2 Rc8 24. Reb1 Rxb1+ 25. Rxb1 h5 26. Rb7 Re8 27. Bc7 Ne3 28. Bb6 Nxc2 29. e5 c4 30. Bxa5 c3 31. Bb6 Bf8 32. a5 Rxe5 33. a6 Re1+ 34. Kh2 Bd6+ 35. g3 h4 36. Ng4 hxg3+ 37. Kg2 Ra1 38. a7 Ne1+ 39. Kf1 Nxf3+ 40. Ke2 g2 41. Rb8+ Kh7 42. a8=Q Rxa8 43. Rxa8 g1=Q 44. Rd8 Nd2 45. Nf6+ Kg6 46. Rg8+ Kxf6 47. Bxd4+ Qxd4 48. Rc8 Qe4+ 49. Kd1 Be5 50. Rc6+ Qxc6 51. h4 Qh1+ 52. Ke2 Qf1+ 53. Ke3 Qf3# 0-1
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "15.1"]
+[White "Br_stockfish_15_Ha_cdrill_1800"]
+[Black "Br_cdrill_1800_Ha_stockfish_15"]
+[Result "1-0"]
+[FEN "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR w KQkq - 1 7"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+7. h4 h5 8. Ne2 Qa5 9. Bg5 Nbc6 10. Bxe7 Nxe7 11. Qd2 Nf5 12. dxc5 Qc7 13. Nd4 Qxe5+ 14. Be2 Bd7 15. Rb1 O-O-O 16. O-O Nxh4 17. Bd3 Qc7 18. Rfe1 g5 19. Rb4 Qxc5 20. Reb1 b6 21. f4 Ng6 22. Bxg6 fxg6 23. Qe2 b5 24. Kh1 a6 25. a4 e5 26. fxe5 Qxc3 27. e6 a5 28. Rxb5 Bxb5 29. Qxb5 Qb4 30. Qa6+ Kb8 31. Rxb4+ axb4 32. Qb6+ Ka8 33. Nc6 Rh7 34. Qa6+ Ra7 35. Qxa7# 1-0
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "14.2"]
+[White "Br_cdrill_1800_Ha_stockfish_15"]
+[Black "Br_stockfish_15_Ha_cdrill_1800"]
+[Result "1/2-1/2"]
+[FEN "r1bqk2r/1pppbppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 4 6"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+6. d3 b5 7. Bb3 d5 8. Bg5 dxe4 9. dxe4 O-O 10. Qxd8 Rxd8 11. Nbd2 h6 12. Bxf6 Bxf6 13. Bd5 Bd7 14. a4 Ra7 15. axb5 axb5 16. Rxa7 Nxa7 17. Ra1 Nc6 18. c3 Ne7 19. Bb3 Bc8 20. Ra8 c5 21. Ba2 Ng6 22. Bd5 Bd7 23. Rxd8+ Bxd8 24. Nf1 c4 25. g3 Kf8 26. h4 f6 27. b3 cxb3 28. Bxb3 Ba5 29. c4 Bg4 30. N3d2 Be2 31. cxb5 Bxb5 32. Bc4 Bxc4 33. Nxc4 Bb4 34. h5 Nh8 35. Nfe3 Nf7 36. Nd5 Bc5 37. Nd2 Ng5 38. Kg2 Ne6 39. Nf3 Kg8 40. g4 Kh7 41. Nh4 Kh8 42. f3 Kg8 43. Nc3 Nf4+ 44. Kf1 Nd3 45. Nd5 Kh7 46. Ng6 Kg8 47. Nc7 Kf7 48. Ke2 Nc1+ 49. Kd2 Nb3+ 50. Kd3 Nd4 51. Kc4 Bb6 52. Nd5 Ba7 53. f4 Nf3 54. f5 Nh2 55. Nc7 Nxg4 56. Nh8+ Kg8 57. Ng6 Nf2 58. Kd5 Nh3 59. Nb5 Nf4+ 60. Nxf4 exf4 61. Nd4 Kh7 62. Nf3 Kh8 63. e5 fxe5 64. Nxe5 Kh7 65. Ke4 Kg8 66. Kf3 Be3 67. Ng4 Kf7 68. Nxe3 fxe3 69. Kxe3 Ke8 70. Ke4 Kf8 71. Kf4 Ke8 72. Ke4 Kf8 73. Kf4 Ke8 74. Ke4 Kf8 75. Kf4 Ke8 76. Ke4 Kf8 77. Kf4 Ke8 78. Ke4 1/2-1/2
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "16.1"]
+[White "Br_stockfish_15_Ha_cdrill_1800"]
+[Black "Br_cdrill_1800_Ha_stockfish_15"]
+[Result "0-1"]
+[FEN "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+4. Nf3 Nc6 5. Qd3 d6 6. d5 Ne5 7. Nxe5 dxe5 8. a3 Bxc3+ 9. Qxc3 Qd6 10. b4 exd5 11. c5 Qe7 12. c6 Ne4 13. Qe3 O-O 14. cxb7 Bxb7 15. b5 a6 16. b6 d4 17. Qb3 Qh4 18. g3 Qe7 19. f3 Nc5 20. Qb1 e4 21. Kf2 exf3 22. exf3 Qf6 23. Bg2 Rac8 24. bxc7 Rfe8 25. Rd1 d3 26. Kg1 Qd4+ 27. Kh1 Qf2 28. Bf4 Re2 29. Rg1 g5 30. Bxg5 Bxf3 31. Qf1 Ne4 32. Bf4 d2 33. h4 Qxf1 34. Raxf1 Bxg2+ 35. Rxg2 Re1 36. Rgg1 d1=Q 37. Rxe1 Qd5 38. Rg2 Nf2+ 39. Kg1 Nh3+ 40. Kh2 Nxf4 41. gxf4+ Kf8 42. Rc1 Qd4 43. Rgc2 Qxf4+ 44. Kh3 h5 45. Rc4 Qf3+ 46. Kh2 Qxa3 47. Kg2 Qd6 48. Rc6 Qd5+ 49. Kh2 Qe5+ 50. Kh3 Qf5+ 51. Kh2 Qf4+ 52. Kg2 Ke7 53. Kh3 Rg8 54. Re1+ Kd7 55. c8=Q+ Rxc8 56. Rxc8 Qf3+ 57. Kh2 Qf2+ 58. Kh3 Qxe1 59. Rf8 Qc3+ 60. Kh2 Qe5+ 61. Kh3 Qg7 62. Rxf7+ Qxf7 63. Kh2 Qf1 64. Kg3 a5 65. Kh2 a4 66. Kg3 a3 67. Kh2 Qf4+ 68. Kg2 a2 69. Kh3 a1=Q 70. Kg2 Qaf1# 0-1
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "16.2"]
+[White "Br_cdrill_1800_Ha_stockfish_15"]
+[Black "Br_stockfish_15_Ha_cdrill_1800"]
+[Result "0-1"]
+[FEN "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+4. Qc2 d5 5. Nf3 dxc4 6. Bd2 a5 7. e4 Bxc3 8. bxc3 b5 9. Qb1 c6 10. a4 Ba6 11. Be2 Nbd7 12. Bd1 Qc7 13. axb5 cxb5 14. h3 h6 15. g3 Qc6 16. e5 Ne4 17. Rxa5 O-O 18. Rg1 Ra7 19. Nh2 Nxd2 20. Kxd2 Nxe5 21. Be2 Qd6 22. Kc1 Nc6 23. Ra2 b4 24. Nf3 Rb8 25. Qb2 bxc3 26. Qxc3 Nb4 27. Ra1 Qd5 28. Nd2 Qf5 29. Kd1 Rd7 30. f4 Nd5 31. Qc1 Ne3+ 32. Ke1 Nc2+ 33. Kf2 Nxa1 34. Qxa1 c3 35. Qxa6 cxd2 36. Ke3 Qd5 37. Rd1 Qxd4+ 38. Kf3 Rb3+ 39. Kg2 Qe4+ 40. Kh2 Rd8 41. Rg1 Rb6 42. Qxb6 d1=Q 43. Rg2 Qdd4 44. Qxd4 Qxd4 45. h4 Qe3 46. Bf1 g6 47. Be2 h5 48. Ba6 Rd2 49. Bb5 Rxg2+ 50. Kxg2 Qd2+ 51. Kg1 e5 52. f5 Qc3 53. g4 Qc5+ 54. Kg2 Qxb5 55. Kf2 Qc5+ 56. Kg2 Qd5+ 57. Kf1 Qd1+ 58. Kf2 Qxg4 59. f6 Qxh4+ 60. Ke3 Qd4+ 61. Kf3 e4+ 62. Ke2 e3 63. Kf3 g5 64. Kg3 Qg4+ 65. Kh2 e2 66. Kh1 e1=Q+ 67. Kh2 Qgg3# 0-1
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "15.2"]
+[White "Br_cdrill_1800_Ha_stockfish_15"]
+[Black "Br_stockfish_15_Ha_cdrill_1800"]
+[Result "1-0"]
+[FEN "rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR w KQkq - 1 7"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+7. Be2 Qa5 8. Bd2 Qa4 9. Nf3 h6 10. Qb1 Nbc6 11. Qb3 Qxb3 12. cxb3 Na5 13. Rb1 c4 14. b4 Nb3 15. O-O b5 16. Be3 a5 17. h4 axb4 18. axb4 Ra2 19. Bd1 Bb7 20. Bxb3 cxb3 21. Rxb3 Kf8 22. Rbb1 Ke8 23. Ra1 Ra4 24. g4 Kd7 25. h5 Rc8 26. Bd2 Rca8 27. Rac1 Ke8 28. Rfd1 Kf8 29. Rc2 Bc6 30. Ne1 Nc8 31. Nd3 Ne7 32. Bc1 Ra1 33. Rf1 R1a4 34. Be3 Ra3 35. Nc5 Be8 36. Bc1 Ra1 37. Bf4 R1a3 38. Re1 Kg8 39. Nb7 Nc8 40. Nc5 Ne7 41. f3 R8a7 42. Kh2 Nc8 43. Ree2 Rc7 44. Kg3 Rca7 45. Bc1 Ra1 46. Nd3 Kf8 47. Be3 Kg8 48. Rg2 R1a3 49. Kh2 Kf8 50. g5 hxg5 51. Bxg5 f5 52. h6 Kg8 53. Nf4 R3a6 54. Bf6 g6 55. Nh3 Rh7 56. Bg7 Ne7 57. Ra2 Rxa2 58. Rxa2 Rxg7 59. hxg7 Kxg7 60. Ra7 Kf8 61. Ng5 Bc6 62. Nxe6+ Ke8 63. f4 Nc8 64. Rc7 Ne7 65. Kg3 Ba8 66. Ra7 Bc6 67. Kh4 Nc8 68. Rg7 Nb6 69. Rxg6 Na4 70. Ng7+ Kf7 71. Rxc6 Kxg7 72. Kg5 Nb2 73. e6 Nc4 74. Kxf5 Ne3+ 75. Kg5 Nc4 76. f5 Kg8 77. f6 Kh7 78. Rxc4 bxc4 79. e7 Kg8 80. Kg6 Kh8 81. e8=Q# 1-0
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "17.1"]
+[White "Br_stockfish_15_Ha_cdrill_1800"]
+[Black "Br_cdrill_1800_Ha_stockfish_15"]
+[Result "0-1"]
+[FEN "rnbqkb1r/pp2pppp/2p2n2/3p4/2PP4/5N2/PP2PPPP/RNBQKB1R w KQkq - 2 4"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+4. Nc3 Qc7 5. cxd5 cxd5 6. Bg5 Ne4 7. Nxe4 dxe4 8. Ne5 Qb6 9. b3 e6 10. Nc4 Bb4+ 11. Bd2 Qb5 12. e3 O-O 13. Qg4 Qf5 14. Qh4 Nc6 15. Rc1 Be7 16. Qg3 h5 17. h4 Nb4 18. Bxb4 Bxb4+ 19. Kd1 Qd5 20. a3 Bxa3 21. Rb1 Bb4 22. Qh2 Qc6 23. Qe5 f6 24. Qxh5 e5 25. Rc1 Qd5 26. Nd2 b5 27. Qg6 Bxd2 28. Kxd2 exd4 29. Rc7 dxe3+ 30. Kc1 Bd7 31. fxe3 Rac8 32. Qg3 Rxc7+ 33. Qxc7 Rc8 34. Qxc8+ Bxc8 35. b4 Qb3 36. Kd2 Bg4 37. h5 Qd1+ 38. Kc3 Qc1+ 39. Kd4 Qc7 40. Kd5 Qd7+ 41. Kc5 Be6 42. Bc4 Bxc4 43. Rd1 Qc7+ 44. Kd4 Qe5# 0-1
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "18.1"]
+[White "Br_stockfish_15_Ha_cdrill_1800"]
+[Black "Br_cdrill_1800_Ha_stockfish_15"]
+[Result "1-0"]
+[FEN "rnbqkb1r/ppp1pp1p/5np1/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 0 4"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+4. Qb3 Qd7 5. cxd5 Qd8 6. e4 c6 7. dxc6 Nxc6 8. d5 Na5 9. Qb4 e5 10. Qa4+ Bd7 11. Bb5 a6 12. Bxd7+ Nxd7 13. Nf3 b5 14. Qc2 Qc7 15. Qe2 Bb4 16. Bd2 Be7 17. O-O b4 18. d6 Bxd6 19. Nd5 Qc4 20. Qe1 Rb8 21. b3 Qb5 22. Bh6 Kd8 23. Rc1 Bc5 24. Ng5 Kc8 25. Nxf7 Kb7 26. Be3 Rhd8 27. a4 bxa3 28. b4 Nb3 29. bxc5 Ndxc5 30. Bxc5 Nxc1 31. Qxc1 a2 32. Nxd8+ Rxd8 33. Be3 Rd7 34. Qa3 Qb1 35. Nc3 a1=R 36. Qxa1 Qxa1 37. Rxa1 a5 38. Nd5 Kc6 39. Rxa5 Rb7 40. h3 Rb1+ 41. Kh2 Rb7 42. g4 Kd7 43. Ra6 Kc8 44. Re6 Kd7 45. Re7+ Kc6 46. Rxe5 Kd6 47. Re8 h5 48. g5 Rf7 49. Rg8 Ke5 50. Rxg6 Kxe4 51. Rf6 Rh7 52. Kg3 Kxd5 53. g6 Rh8 54. Kh4 Rg8 55. Kxh5 Ke4 56. Bh6 Kd3 57. f4 Rd8 58. g7 Ra8 59. Kg4 Ra1 60. f5 Ra8 61. Kg5 Ke2 62. Kg6 Rg8 63. Re6+ Kd1 64. Bg5 Rb8 65. f6 Kc2 66. f7 Rc8 67. g8=Q Rc5 68. f8=Q Rxg5+ 69. Kxg5 Kb2 70. Qb4+ Kc2 71. Qc8+ Kd3 72. Qcc4# 1-0
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "18.2"]
+[White "Br_cdrill_1800_Ha_stockfish_15"]
+[Black "Br_stockfish_15_Ha_cdrill_1800"]
+[Result "1/2-1/2"]
+[FEN "rnbqkb1r/ppp1pp1p/5np1/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 0 4"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+4. Nf3 Bg4 5. Bg5 c6 6. Qb3 Bxf3 7. Qxb7 Nbd7 8. Bxf6 exf6 9. gxf3 Rc8 10. e3 dxc4 11. Bxc4 Be7 12. Qxa7 O-O 13. Rc1 f5 14. Rc2 h6 15. Rg1 Kh8 16. f4 Bd6 17. h3 Rc7 18. Qa6 Qh4 19. Rh1 Nf6 20. Be2 g5 21. Nb5 Ne4 22. Nxd6 Qxf2+ 23. Kd1 Nxd6 24. Rf1 Qxe3 25. Qd3 Re8 26. Qxe3 Rxe3 27. fxg5 hxg5 28. b4 Re4 29. b5 Kh7 30. b6 Rxd4+ 31. Kc1 Rc8 32. Ba6 Ra8 33. b7 Rb8 34. Rxc6 Nxb7 35. Rb6 Rd7 36. Rxf5 Rc8+ 37. Kb2 Rc5 38. Bd3 Kh8 39. Rxc5 Nxc5 40. Bc2 Kg7 41. a3 Rd4 42. Kb1 Rh4 43. Rc6 Rc4 44. Bf5 Kf8 45. Rc8+ Kg7 46. Kb2 Kf6 47. Bg4 Ke5 48. Re8+ Ne6 49. Bh5 Rf4 50. a4 f5 51. Bd1 Kd6 52. a5 Rb4+ 53. Kc3 Rh4 54. Kb2 Rxh3 55. a6 Rh7 56. Rb8 Ra7 57. Rb6+ Ke5 58. Rb5+ Kd4 59. Rxf5 Rxa6 60. Bh5 Rb6+ 61. Kc1 Ke3 62. Bf7 Rc6+ 63. Kb2 Rc2+ 64. Kxc2 Nd4+ 65. Kd1 Nxf5 66. Be8 Kf2 67. Bh5 Kg2 68. Ke1 Kg3 69. Kf1 Kf4 70. Kg1 Ke3 71. Kh2 Kd4 72. Kg1 g4 73. Bxg4 Ke4 74. Kf2 Ne3 75. Bf5+ Kxf5 1/2-1/2
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "19.1"]
+[White "Br_stockfish_15_Ha_cdrill_1800"]
+[Black "Br_cdrill_1800_Ha_stockfish_15"]
+[Result "0-1"]
+[FEN "rnbqk2r/ppp1ppbp/3p1np1/8/2PPP3/2N5/PP3PPP/R1BQKBNR w KQkq - 0 5"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+5. h3 Nbd7 6. Qf3 c5 7. e5 dxe5 8. d5 Qb6 9. h4 Nb8 10. Be2 Bg4 11. Qg3 Bxe2 12. Ngxe2 Nh5 13. Qh3 Nd7 14. d6 Qxd6 15. Bg5 f5 16. Rd1 Qc6 17. a3 h6 18. Bc1 Rd8 19. b3 Ndf6 20. Rxd8+ Kxd8 21. a4 Ke8 22. O-O Ng4 23. f3 Ngf6 24. Be3 e4 25. fxe4 Nxe4 26. Nd5 e6 27. Ndf4 Nxf4 28. Nxf4 g5 29. Ng6 Rg8 30. hxg5 hxg5 31. Rd1 Bf6 32. Qh7 Rg7 33. Qh5 Ng3 34. Qh6 Qe4 35. Bxc5 Qe2 36. Rc1 Qd2 37. Rb1 Ne2+ 38. Kh1 Qd3 39. Re1 Ng3+ 40. Kh2 Ne4 41. Re3 Qd7 42. Be7 Qd4 43. Rxe4 fxe4 44. Bb4 e3 45. Qh5 Rf7 46. Be1 Qe4 47. c5 g4 48. c6 bxc6 49. b4 Qf5 50. Qxf5 exf5 51. Kg1 Bd4 52. g3 e2+ 53. Kg2 Be3 54. Ne5 Re7 55. Nxc6 Rd7 56. b5 Rd1 57. Bb4 Rb1 58. Bc3 Rb2 59. Be1 Rb1 60. Bc3 Rg1+ 61. Kh2 Bc5 62. a5 Rc1 63. Bd2 Be3 64. Bb4 Rb1 65. Bc3 Rxb5 66. Nb4 Rc5 67. Be1 Rc1 68. Nd3 Rd1 69. a6 Rxd3 70. Kg2 Rd1 71. Bc3 Rd2 72. Bxd2 Bxd2 73. Kh2 e1=Q 74. Kg2 Be3 75. Kh2 Qg1# 0-1
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "17.2"]
+[White "Br_cdrill_1800_Ha_stockfish_15"]
+[Black "Br_stockfish_15_Ha_cdrill_1800"]
+[Result "0-1"]
+[FEN "rnbqkb1r/pp2pppp/2p2n2/3p4/2PP4/5N2/PP2PPPP/RNBQKB1R w KQkq - 2 4"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+4. Qb3 dxc4 5. Qxc4 Be6 6. Qd3 h6 7. Nc3 Bd5 8. Qd1 a5 9. Qd3 Bxf3 10. gxf3 e6 11. Bd2 a4 12. Bg2 Bd6 13. Bh3 a3 14. bxa3 Kd7 15. Rb1 Kc8 16. Qc4 Bc7 17. Nd1 Ra6 18. e3 Nfd7 19. a4 Nb6 20. Qb3 Rxa4 21. Nc3 Ra6 22. Bg2 N8d7 23. a4 Qh4 24. Ne4 Rxa4 25. Rc1 Ra7 26. Ng3 Qe7 27. Qc2 e5 28. dxe5 Nxe5 29. f4 Nec4 30. Bh3+ Kb8 31. Bg2 Nxd2 32. Qxd2 Rd8 33. Qb2 Na4 34. Qc2 Bxf4 35. O-O Bxg3 36. hxg3 Ra6 37. Qb3 Nb6 38. Ra1 Qe6 39. Qb4 Rxa1 40. Rxa1 Nc4 41. Rb1 Rd7 42. Qf8+ Kc7 43. Qa8 Kd6 44. Qf8+ Kc7 45. Bf1 Nd2 46. Ra1 Qe7 47. Qxg7 Nxf1 48. Rxf1 h5 49. Ra1 Qe4 50. Rc1 b6 51. Ra1 c5 52. Ra7+ Kc6 53. Rxd7 Kxd7 54. Qxf7+ Kc6 55. Qf6+ Kb5 56. Qb2+ Qb4 57. Qe2+ Qc4 58. Qb2+ Kc6 59. Qf6+ Kb5 60. Qb2+ Qb4 61. Qe2+ c4 62. Qxh5+ Ka6 63. Qd1 c3 64. Qd3+ b5 65. e4 Qc5 66. Qc2 Kb7 67. Kf1 Qc6 68. Ke2 b4 69. f3 Qa6+ 70. Ke3 Qb6+ 71. Ke2 b3 72. Qd1 Qb5+ 73. Qd3 Ka6 74. Qxb5+ Kxb5 75. Kd3 Kb4 76. e5 c2 77. Kd2 Ka3 78. Kc1 Ka2 79. g4 b2+ 80. Kxc2 b1=Q+ 81. Kd2 Qb2+ 82. Ke3 Qxe5+ 83. Kf2 Ka3 84. Kg2 Qe1 85. Kh3 Qg1 86. Kh4 Qf2+ 87. Kg5 Qxf3 88. Kg6 Qxg4+ 89. Kf6 Kb4 90. Ke7 Qf5 91. Kd6 Kb5 92. Kc7 Qe5+ 93. Kd7 Kb6 94. Kd8 Kc6 95. Kc8 Qc7# 0-1
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "19.2"]
+[White "Br_cdrill_1800_Ha_stockfish_15"]
+[Black "Br_stockfish_15_Ha_cdrill_1800"]
+[Result "1-0"]
+[FEN "rnbqk2r/ppp1ppbp/3p1np1/8/2PPP3/2N5/PP3PPP/R1BQKBNR w KQkq - 0 5"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+5. Nf3 Kf8 6. Be2 Bg4 7. h3 Bxf3 8. Bxf3 Nc6 9. Be3 h5 10. O-O a5 11. e5 dxe5 12. Bxc6 bxc6 13. dxe5 Qxd1 14. Raxd1 Ng8 15. f4 Ke8 16. Ne4 Nh6 17. Bf2 a4 18. Bc5 h4 19. Rfe1 Nf5 20. Ng5 Rh5 21. e6 f6 22. Ne4 Nd6 23. Bf2 Rb8 24. Nc5 Rxb2 25. Na6 Rb7 26. c5 Bh6 27. cxd6 cxd6 28. Rb1 Rhb5 29. Rxb5 cxb5 30. Re4 g5 31. f5 Kf8 32. a3 Kg8 33. Rb4 Kh7 34. Re4 b4 35. Rxb4 Rxb4 36. Nxb4 g4 37. hxg4 Bc1 38. Nc2 Kg7 39. Bxh4 Kf8 40. Bf2 Ke8 41. Bb6 Bf4 42. Ne3 d5 43. Nc2 Bd6 44. Be3 Kd8 45. Bb6+ Ke8 46. Be3 Kd8 47. Bd2 Ke8 48. Bb4 Bf4 49. Kf1 Be5 50. Ne1 Kd8 51. Nc2 Ke8 52. Ne3 d4 53. Nd5 Kf8 54. Bxe7+ Kg7 55. Ke2 Kg8 56. Nxf6+ Kh8 57. Nd5 Kg8 58. f6 Bxf6 59. Bxf6 d3+ 60. Kxd3 Kf8 61. g5 Kg8 62. e7 Kf7 63. Nc7 Kg8 64. e8=Q+ Kh7 65. Qf7# 1-0
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "20.1"]
+[White "Br_stockfish_15_Ha_cdrill_1800"]
+[Black "Br_cdrill_1800_Ha_stockfish_15"]
+[Result "0-1"]
+[FEN "r1b1kbnr/ppqp1ppp/2n1p3/8/3NP3/2N5/PPP2PPP/R1BQKB1R w KQkq - 3 6"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+6. h4 Be7 7. a4 Kf8 8. h5 Nb4 9. Be3 a6 10. h6 gxh6 11. Qd2 Ke8 12. Kd1 d5 13. f4 dxe4 14. Nxe4 e5 15. Be2 exd4 16. Qxd4 Bg4 17. Qc3 Rd8+ 18. Kc1 Qxc3 19. bxc3 Bxe2 20. cxb4 Bg4 21. Bc5 Kf8 22. Re1 Bf5 23. Ra3 h5 24. Ng3 Bxc5 25. bxc5 Bc8 26. Nxh5 Bg4 27. Ng3 Nf6 28. Rd3 Rxd3 29. cxd3 Bd7 30. Re2 Rg8 31. Ne4 Nxe4 32. Rxe4 Rxg2 33. Rd4 Bc6 34. Rd8+ Ke7 35. Rb8 Rh2 36. Rc8 Bf3 37. a5 Rg2 38. Rh8 h5 39. d4 Rh2 40. Rg8 h4 41. Rg5 h3 42. Rg3 Rh1+ 43. Kb2 h2 44. Rh3 Kf6 45. d5 Bxd5 46. Rh5 Be4 47. Ka2 Bf3 48. Rh4 Bd5+ 49. Kb2 Kf5 50. Rh6 Be4 51. c6 bxc6 52. Rh5+ Kg4 53. Rh8 Rb1+ 54. Kc3 h1=Q 55. Rxh1 Bxh1 56. Kd4 Kxf4 57. Kc4 Be4 58. Kc5 Ke5 59. Kc4 f5 60. Kc3 c5 61. Kd2 f4 62. Ke2 Rb2+ 63. Kd1 c4 64. Kc1 c3 65. Kd1 Rg2 66. Ke1 c2 67. Kf1 c1=Q# 0-1
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "21.1"]
+[White "Br_stockfish_15_Ha_cdrill_1800"]
+[Black "Br_cdrill_1800_Ha_stockfish_15"]
+[Result "1-0"]
+[FEN "r1bqkb1r/pppp1ppp/2n2n2/4p3/8/1P2P3/PBPP1PPP/RN1QKBNR w KQkq - 1 4"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+4. Nf3 e4 5. Nd4 Bc5 6. Nb5 O-O 7. d4 Bb4+ 8. c3 Ba5 9. b4 Bb6 10. d5 Ne5 11. c4 Re8 12. c5 a6 13. cxb6 axb5 14. bxc7 Qxc7 15. Nc3 Qb6 16. Bxb5 Nd3+ 17. Bxd3 Qxb4 18. Qb3 Qxb3 19. axb3 Rxa1+ 20. Bxa1 exd3 21. Na4 Nxd5 22. Kd2 d6 23. Nb2 Be6 24. Nxd3 Bf5 25. Rc1 f6 26. Rc4 Be4 27. Ne1 h6 28. Rd4 Re5 29. h4 Kf7 30. f3 Bg6 31. Nd3 Bxd3 32. Rxd3 Nb4 33. Bxe5 Nxd3 34. Bxd6 Nf2 35. Ke2 Nh1 36. Kf1 Ke6 37. Bh2 Kd5 38. Kg1 Kc5 39. h5 b5 40. e4 Kb4 41. e5 fxe5 42. Kxh1 Kc5 43. Bxe5 Kd5 44. Bxg7 Kc5 45. g4 Kb4 46. g5 hxg5 47. h6 Kxb3 48. h7 b4 49. h8=Q Ka4 50. Kg2 Kb5 51. Kg3 Kc5 52. Bf8+ Kb5 53. Be7 Kc4 54. Qb2 b3 55. f4 g4 56. f5 Kd5 57. Qxb3+ Kc6 58. f6 Kd7 59. Qd5+ Kc7 60. f7 Kb6 61. f8=Q Ka7 62. Qfa8+ Kb6 63. Qaa5# 1-0
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "20.2"]
+[White "Br_cdrill_1800_Ha_stockfish_15"]
+[Black "Br_stockfish_15_Ha_cdrill_1800"]
+[Result "1-0"]
+[FEN "r1b1kbnr/ppqp1ppp/2n1p3/8/3NP3/2N5/PPP2PPP/R1BQKB1R w KQkq - 3 6"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+6. Ndb5 Qb8 7. Be2 a6 8. Nd4 Ne5 9. a4 h5 10. Be3 Nf6 11. Bf4 d5 12. Bxe5 Qxe5 13. Nf3 Qf4 14. exd5 Bb4 15. dxe6 Bxe6 16. Qd4 Qe4 17. O-O Qxd4 18. Nxd4 Bg4 19. Bxg4 hxg4 20. Rfe1+ Kf8 21. Re3 Rd8 22. Rd1 Kg8 23. Ne4 Ba5 24. Nxf6+ gxf6 25. c3 Bc7 26. g3 Rh5 27. b4 Re5 28. Rde1 Kh7 29. Re4 Rde8 30. f3 b5 31. axb5 axb5 32. Rxe5 Bxe5 33. Rd1 gxf3 34. Nxb5 Kg8 35. Kf2 Kg7 36. Kxf3 f5 37. Nd6 Rh8 38. Nxf5+ Kf6 39. Ne3 Kg7 40. c4 Bc3 41. Nd5 Be5 42. Ke4 Bb8 43. Rd2 Re8+ 44. Kd3 Rd8 45. b5 Ba7 46. Kc3 Bc5 47. b6 Rd7 48. Rb2 Rb7 49. h4 Rb8 50. b7 Bd6 51. Kd4 Re8 52. Ra2 Rb8 53. c5 Bxc5+ 54. Kxc5 Rxb7 55. g4 Rb1 56. h5 Kh6 57. Ra7 Kg7 58. Ne3 Kf6 59. h6 Kg5 60. Nf5 Rh1 61. Rxf7 Kxg4 62. h7 Rh5 63. Kd5 Rh3 64. Ke4 Kg5 65. Ke5 Rxh7 66. Rxh7 Kg4 67. Ke4 Kg5 68. Rh6 Kg4 69. Ke5 Kf3 70. Rh2 Kg4 71. Ke4 Kg5 72. Rg2+ Kf6 73. Rg7 Ke6 74. Rc7 Kf6 75. Kf4 Ke6 76. Ke4 Kf6 77. Rc6+ Kf7 78. Rd6 Kf8 79. Rc6 Kf7 80. Ke5 Kg8 81. Rf6 Kh8 82. Rh6+ Kg8 83. Ke6 Kf8 84. Rh8# 1-0
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "22.1"]
+[White "Br_stockfish_15_Ha_cdrill_1800"]
+[Black "Br_cdrill_1800_Ha_stockfish_15"]
+[Result "1/2-1/2"]
+[FEN "r1bqk2r/pppp1ppp/2n2n2/4p3/1bP5/2N2NP1/PP1PPP1P/R1BQKB1R w KQkq - 1 5"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+5. Bg2 d6 6. Kf1 Bxc3 7. dxc3 O-O 8. Qc2 h6 9. h3 Nh7 10. Nh4 Ne7 11. c5 d5 12. c6 bxc6 13. Ke1 e4 14. Bf1 a5 15. Be3 a4 16. Rd1 a3 17. b4 h5 18. c4 f6 19. Ng2 Ng5 20. Nf4 Ne6 21. Nxh5 Kf7 22. Nf4 Nxf4 23. Bxf4 g5 24. Bc1 Kg7 25. h4 Rh8 26. cxd5 cxd5 27. Bg2 Qd6 28. hxg5 Rxh1+ 29. Bxh1 Bf5 30. gxf6+ Qxf6 31. Be3 Kf7 32. Bc5 Rh8 33. Bg2 Qb2 34. Qxb2 axb2 35. Bd4 Rh2 36. Bxe4 dxe4 37. Bxb2 Bg4 38. Bc1 Nc6 39. b5 Na5 40. Rd4 Rh1+ 41. Kd2 Be6 42. Bb2 Nc4+ 43. Kc3 Rb1 44. Rxe4 Nxb2 45. Kc2 Bxa2 46. Rb4 Kf6 47. e3 Nd1 48. Rxb1 Bxb1+ 49. Kxd1 Bd3 50. g4 Kg5 51. f3 Bxb5 52. Ke1 c6 53. Kf2 c5 54. Ke1 c4 55. Kd2 Be8 56. Kc3 Bf7 57. Kd4 Kh4 58. e4 Kg3 59. Ke3 c3 60. Kd3 Kxf3 61. Kxc3 Kxe4 62. g5 Ba2 63. g6 Kf5 64. g7 Kf6 65. g8=Q Bxg8 1/2-1/2
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "23.1"]
+[White "Br_stockfish_15_Ha_cdrill_1800"]
+[Black "Br_cdrill_1800_Ha_stockfish_15"]
+[Result "1-0"]
+[FEN "r1bqk2r/1ppp1ppp/p1n2n2/2b1p3/2B1P3/2PP1N2/PP3PPP/RNBQK2R w KQkq - 0 6"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+6. Bg5 h6 7. Bh4 d6 8. Nbd2 g5 9. Bg3 a5 10. O-O a4 11. Bb5 h5 12. d4 exd4 13. cxd4 h4 14. dxc5 hxg3 15. fxg3 dxc5 16. e5 Nh7 17. Qe2 g4 18. Nh4 Qd4+ 19. Kh1 Be6 20. Bxc6+ bxc6 21. Ne4 Bc4 22. Qxg4 Bxf1 23. Rxf1 Qxe5 24. a3 Ke7 25. Nf5+ Ke8 26. h4 c4 27. Nh6 Rf8 28. Rxf7 Rxf7 29. Qg6 Qg7 30. Qxc6+ Ke7 31. Nxf7 Qxf7 32. Qxa8 Nf6 33. Nxf6 Qxf6 34. Qxa4 Qe5 35. Kh2 Qd5 36. Qb4+ c5 37. Qb8 Qd4 38. h5 Kd7 39. h6 Qf6 40. Qb7+ Ke8 41. Qc8+ Kf7 42. h7 Qh6+ 43. Qh3 Qxh3+ 44. Kxh3 Kg7 45. a4 Kxh7 46. a5 Kg6 47. a6 Kf6 48. a7 Ke5 49. a8=Q Kd6 50. Qe4 Kc7 51. g4 c3 52. bxc3 Kb6 53. g5 c4 54. g6 Kb5 55. Qb7+ Kc5 56. g7 Kd6 57. g8=Q Ke5 58. Qe7+ Kf5 59. Qgf7# 1-0
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "21.2"]
+[White "Br_cdrill_1800_Ha_stockfish_15"]
+[Black "Br_stockfish_15_Ha_cdrill_1800"]
+[Result "1-0"]
+[FEN "r1bqkb1r/pppp1ppp/2n2n2/4p3/8/1P2P3/PBPP1PPP/RN1QKBNR w KQkq - 1 4"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+4. Nf3 e4 5. Nd4 Nxd4 6. Bxd4 Be7 7. c4 O-O 8. Nc3 g6 9. Qc2 d5 10. cxd5 Nxd5 11. Nxd5 Qxd5 12. Qxc7 Bd6 13. Qc4 Be6 14. Qxd5 Bxd5 15. h4 f6 16. h5 Rf7 17. hxg6 hxg6 18. Bc4 Bxc4 19. bxc4 Rc8 20. Rc1 Ba3 21. Rc2 Kg7 22. Ba1 Rfc7 23. Bd4 Bc5 24. Rh4 Bxd4 25. exd4 f5 26. c5 Rd8 27. Rc4 Rd5 28. d3 exd3 29. Kd2 b6 30. a4 bxc5 31. dxc5 Rcxc5 32. Rxc5 Rxc5 33. Kxd3 Kf6 34. Rc4 Rd5+ 35. Ke3 Rd7 36. g3 Rd6 37. Kf3 Re6 38. g4 g5 39. gxf5 Kxf5 40. a5 Re5 41. Ra4 Rd5 42. Kg2 Rd3 43. a6 g4 44. Ra2 Kg5 45. Ra5+ Kh4 46. Ra1 Kg5 47. Ra5+ Kg6 48. Ra4 Kh5 49. Re4 Ra3 50. Re7 Kh6 51. Rc7 Kg6 52. Rxa7 Kf5 53. Ra8 Kg6 54. Kf1 Ra1+ 55. Ke2 Kf7 56. f4 g3 57. Kf3 Ra3+ 58. Kg2 Kg7 59. a7 Kh7 60. f5 Kg7 61. Kh3 Kf7 62. Rh8 Kf6 63. a8=Q Rxa8 64. Rxa8 Kxf5 65. Ra4 g2 66. Kxg2 Kg6 67. Ra5 Kf7 68. Kf3 Kg8 69. Ra7 Kf8 70. Ke4 Kg8 71. Rc7 Kf8 72. Rh7 Kg8 73. Rc7 Kf8 74. Rh7 Kg8 75. Ra7 Kf8 76. Rb7 Kg8 77. Ra7 Kf8 78. Rc7 Kg8 79. Rd7 Kf8 80. Ke5 Ke8 81. Ke6 Kf8 82. Ra7 Kg8 83. Rf7 Kh8 84. Ra7 Kg8 85. Rf7 Kh8 86. Rb7 Kg8 87. Re7 Kf8 88. Rb7 Kg8 89. Re7 Kf8 90. Rd7 Kg8 91. Rb7 Kf8 92. Rd7 Kg8 93. Rb7 Kf8 94. Rc7 Kg8 95. Rd7 Kf8 96. Rc7 Kg8 97. Rc4 Kg7 98. Rg4+ Kh6 99. Kf6 Kh7 100. Rh4+ Kg8 101. Rh1 Kf8 102. Rh8# 1-0
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "22.2"]
+[White "Br_cdrill_1800_Ha_stockfish_15"]
+[Black "Br_stockfish_15_Ha_cdrill_1800"]
+[Result "1-0"]
+[FEN "r1bqk2r/pppp1ppp/2n2n2/4p3/1bP5/2N2NP1/PP1PPP1P/R1BQKB1R w KQkq - 1 5"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+5. d4 exd4 6. Nxd4 Bxc3+ 7. bxc3 Nxd4 8. Qxd4 Qe7 9. Bg2 d6 10. Bg5 h6 11. Bxf6 Qxf6 12. Qxf6 gxf6 13. Rb1 Rb8 14. Be4 a5 15. f3 Kf8 16. a3 b6 17. h4 Be6 18. Bd3 Re8 19. e4 Kg8 20. Kf2 Bd7 21. h5 Rd8 22. Rbd1 Kf8 23. c5 Ba4 24. cxb6 Bxd1 25. bxc7 Rc8 26. Rxd1 Rxc7 27. c4 Rg8 28. g4 Rg5 29. Rb1 Kg7 30. Rb6 Rd7 31. Rb1 Rd8 32. a4 Re5 33. Rb6 Kg8 34. f4 Rc5 35. Ra6 Kf8 36. Ke3 Ke7 37. Rb6 Ra8 38. Rb7+ Ke8 39. Kd4 Rd8 40. Kc3 Rdc8 41. Ra7 Rb8 42. Kd4 Rb4 43. Ra8+ Ke7 44. Ra7+ Kf8 45. Ra6 Rxa4 46. Rxd6 Rc8 47. e5 fxe5+ 48. fxe5 Kg7 49. g5 hxg5 50. h6+ Kg8 51. e6 fxe6 52. Rd7 Ra3 53. Bg6 Rf3 54. Bh7+ Kf8 55. Bg6 Rf4+ 56. Kd3 Rb8 57. c5 Kg8 58. c6 Rf3+ 59. Ke2 Rbf8 60. c7 Rf2+ 61. Ke3 R2f3+ 62. Kd2 Rc8 63. h7+ Kh8 64. Bf7 Rxc7 65. Rxc7 Rf6 66. Bg8 g4 67. Rc5 a4 68. Ra5 g3 69. Rxa4 Rg6 70. Ra1 e5 71. Ke2 e4 72. Kf1 g2+ 73. Kg1 Rg3 74. Kf2 g1=R 75. Rxg1 Rf3+ 76. Kg2 Re3 77. Rh1 Rd3 78. Rh5 Rc3 79. Rh1 e3 80. Kf3 e2+ 81. Kxe2 Rc7 82. Kf3 Rg7 83. Kf4 Rg1 84. Rh4 Rxg8 85. hxg8=Q+ Kxg8 86. Rg4+ Kf7 87. Kf5 Ke7 88. Rd4 Kf7 89. Re4 Kg7 90. Re7+ Kf8 91. Rd7 Ke8 92. Ke6 Kf8 93. Rb7 Kg8 94. Rf7 Kh8 95. Rb7 Kg8 96. Rf7 Kh8 97. Ra7 Kg8 98. Re7 Kf8 99. Rc7 Kg8 100. Re7 Kf8 101. Ra7 Kg8 102. Rd7 Kf8 103. Rc7 Kg8 104. Ra7 Kf8 105. Rd7 Kg8 106. Rd6 Kg7 107. Ke7 Kh8 108. Rg6 Kh7 109. Kf7 Kh8 110. Rh6# 1-0
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "24.2"]
+[White "Br_cdrill_1800_Ha_stockfish_15"]
+[Black "Br_stockfish_15_Ha_cdrill_1800"]
+[Result "1-0"]
+[FEN "rnbqkb1r/3ppppp/p4n2/1PpP4/8/8/PP2PPPP/RNBQKBNR w KQkq - 0 5"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+5. Qb3 d6 6. e4 h6 7. a4 Nbd7 8. Nc3 g5 9. h3 Bg7 10. bxa6 Kf8 11. a7 Qa5 12. Bd2 Qxa7 13. Bb5 Ne5 14. Be3 Ba6 15. Nge2 Nd3+ 16. Kd2 Nb4 17. f3 Kg8 18. Ra3 Nd7 19. h4 gxh4 20. Kd1 Bf6 21. Nf4 h5 22. Nce2 Rh7 23. Bf2 Rg7 24. Bxh4 Be5 25. g3 Nb6 26. Nxh5 Rh7 27. g4 Bxb5 28. axb5 Qd7 29. Rxa8+ Nxa8 30. Qa3 Nb6 31. Qa5 Qb7 32. b3 f6 33. f4 Bb2 34. Be1 Nd3 35. Qd2 Nxe1 36. Kxe1 Ba3 37. Qd3 Bb4+ 38. Kf2 c4 39. bxc4 Kh8 40. e5 f5 41. Qxf5 Qb8 42. Qe4 Qa7 43. Kg2 Qa2 44. g5 Qxc4 45. Qxc4 Nxc4 46. e6 Ba5 47. Neg3 Ne3+ 48. Kf3 Bb6 49. Ra1 Rxh5 50. Nxh5 Bd4 51. b6 Nf5 52. Ra8+ Kh7 53. b7 Ba7 54. Rxa7 Nd4+ 55. Kg4 Nc2 56. b8=Q Ne3+ 57. Kh3 Nf5 58. Qf8 Ne3 59. Qg7# 1-0
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "23.2"]
+[White "Br_cdrill_1800_Ha_stockfish_15"]
+[Black "Br_stockfish_15_Ha_cdrill_1800"]
+[Result "1-0"]
+[FEN "r1bqk2r/1ppp1ppp/p1n2n2/2b1p3/2B1P3/2PP1N2/PP3PPP/RNBQK2R w KQkq - 0 6"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+6. Bb3 d5 7. exd5 Na5 8. Bc2 Ng4 9. d4 Be7 10. Nxe5 Qxd5 11. Qf3 Qxf3 12. Nxf3 Kf8 13. h3 Nf6 14. O-O Nc6 15. Re1 Bd6 16. Nbd2 h6 17. Nc4 Be7 18. Ne3 Be6 19. Nf5 Bd8 20. b3 Bd5 21. Ne5 a5 22. Ba3+ Kg8 23. c4 Be6 24. Nxc6 bxc6 25. Ne7+ Bxe7 26. Bxe7 a4 27. Bd3 h5 28. h4 Nd7 29. f3 Nf6 30. bxa4 Nd7 31. Be4 Nb8 32. d5 Bd7 33. Rab1 cxd5 34. cxd5 f5 35. Bc2 Kh7 36. Bg5 Rf8 37. Rb7 Bxa4 38. Be7 Re8 39. Bxf5+ g6 40. Bd3 Bd7 41. Rxc7 Rxa2 42. d6 Rd2 43. Be4 Kg7 44. Rb1 Rd4 45. Rxb8 Rd1+ 46. Kh2 Rxb8 47. Rxd7 Kf7 48. Bg5+ Ke6 49. Rg7 Rf8 50. Rxg6+ Kd7 51. Be7 Rb8 52. Bf5+ Kc6 53. Rh6 Kb7 54. d7 Kc7 55. Rh7 Rxd7 56. Bxd7 Kxd7 57. Bg5+ Kc6 58. Rxh5 Kb7 59. f4 Ka6 60. f5 Rb7 61. f6 Ka5 62. Rh6 Rf7 63. Rg6 Rf8 64. Rg7 Kb4 65. h5 Kc5 66. h6 Kd6 67. Bf4+ Kc5 68. f7 Kd5 69. h7 Ke6 70. Bg5 Kd6 71. Rg8 Rxf7 72. h8=Q Kd5 73. Rd8+ Kc6 74. Qc3+ Kb7 75. Qb4+ Kc7 76. Qd6+ Kb7 77. Rb8+ Ka7 78. Be3# 1-0
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "25.1"]
+[White "Br_stockfish_15_Ha_cdrill_1800"]
+[Black "Br_cdrill_1800_Ha_stockfish_15"]
+[Result "0-1"]
+[FEN "rnbqkbnr/pp3ppp/4p3/2pp4/3PP3/8/PPPN1PPP/R1BQKBNR w KQkq - 0 4"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+4. c3 cxd4 5. cxd4 Qb6 6. Ngf3 Nc6 7. exd5 exd5 8. Bd3 Bd6 9. Nb3 Nf6 10. Kf1 Ne4 11. Nfd2 Bf5 12. Qe1 Nb4 13. Nxe4 dxe4 14. Bxe4 O-O 15. Bxf5 Qb5+ 16. Qe2 Qxf5 17. Be3 Nc2 18. Rc1 Nxe3+ 19. Qxe3 Bf4 20. Rc5 Qxc5 21. Nxc5 Bxe3 22. fxe3 Rac8 23. Ke1 b6 24. Nd3 Rc2 25. Rg1 Rfc8 26. d5 Rd8 27. Kd1 Rc4 28. Nf4 g5 29. Ne2 Rxd5+ 30. Nd4 Rc8 31. Ke2 Re8 32. Kf2 Rde5 33. Re1 h5 34. b3 h4 35. h3 f6 36. Re2 a6 37. Nc2 Rf5+ 38. Kg1 Rfe5 39. Rf2 Kf7 40. Rf3 Rc5 41. Nd4 Rc1+ 42. Kh2 Re1 43. Nc2 Re2 44. Nb4 R8xe3 45. Rxe3 Rxe3 46. Nxa6 Re2 47. Nb4 b5 48. a4 bxa4 49. bxa4 Re4 50. Nc6 Rxa4 51. Kh1 Ke8 52. Nb8 Ke7 53. Kg1 Kd6 54. Kh2 Kc7 55. Kg1 Kxb8 56. Kf1 f5 57. Kf2 Ra3 58. Kf1 g4 59. hxg4 fxg4 60. Ke1 Ra2 61. Kd1 g3 62. Kc1 Rxg2 63. Kb1 h3 64. Ka1 h2 65. Kb1 h1=Q# 0-1
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "24.1"]
+[White "Br_stockfish_15_Ha_cdrill_1800"]
+[Black "Br_cdrill_1800_Ha_stockfish_15"]
+[Result "0-1"]
+[FEN "rnbqkb1r/3ppppp/p4n2/1PpP4/8/8/PP2PPPP/RNBQKBNR w KQkq - 0 5"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+5. bxa6 Bxa6 6. Nc3 Qb6 7. e3 Bxf1 8. Kxf1 g6 9. a4 Qb7 10. e4 d6 11. a5 Nbd7 12. h4 h5 13. Nge2 Qa6 14. Qa4 Rc8 15. Qc2 Ng4 16. f3 Nge5 17. Kg1 Qa7 18. Kf2 Qa6 19. Bg5 c4 20. Rhb1 Nc5 21. Be3 Nb3 22. Nf4 Nxa1 23. Qa4+ Nd7 24. Rxa1 Bh6 25. Kg3 Bxf4+ 26. Bxf4 Qb7 27. a6 Qxb2 28. a7 O-O 29. Rc1 Nc5 30. Qa1 Qxa1 31. Rxa1 Kh8 32. Be3 f5 33. Bxc5 dxc5 34. e5 f4+ 35. Kh3 Ra8 36. Nb5 c3 37. Nxc3 Rfd8 38. Ra5 Rd7 39. Nb5 c4 40. d6 c3 41. Ra2 exd6 42. exd6 Rb7 43. Nc7 Rb1 44. Kh2 Rxa7 45. Rxa7 c2 46. d7 Rd1 47. Nd5 Rxd5 48. Rc7 Rxd7 49. Rxc2 Kg7 50. Kh3 Rf7 51. Kh2 Rd7 52. Rc4 Rf7 53. Rc5 Kh6 54. Rb5 Rc7 55. Rg5 Rd7 56. Re5 Rb7 57. Rd5 Rc7 58. Rb5 Re7 59. Ra5 Rd7 60. Kh3 Rf7 61. Rb5 Rh7 62. Rb8 Ra7 63. Rh8+ Kg7 64. Rd8 Re7 65. Rd4 Rb7 66. Rxf4 Rd7 67. Re4 Rf7 68. Re5 Kh7 69. Re3 Kg7 70. Rd3 Kg8 71. Kg3 Kh8 72. Rd5 Kg7 73. Rc5 Kh6 74. Rc3 Rh7 75. Rc8 Rf7 76. Rh8+ Kg7 77. Re8 Kh7 78. Re5 Rc7 79. Kh2 Ra7 80. Rd5 Rf7 81. Rc5 Rd7 82. Rb5 Rf7 83. Ra5 Re7 84. Rg5 Rf7 85. Rb5 Rd7 86. Rc5 Re7 87. Ra5 Rb7 88. Ra8 Re7 89. Rb8 Rf7 90. Rc8 Rd7 91. Re8 Ra7 92. Kh3 Rb7 93. Kg3 Rf7 94. Rb8 Kg7 95. Rb5 Kh6 96. Rb3 Rd7 97. Rb8 Re7 98. Rh8+ Kg7 99. Rd8 Ra7 100. Rc8 Rb7 101. Rc5 Kh6 102. Ra5 Rf7 103. Rb5 Kg7 104. Rd5 Kh6 105. Ra5 Rb7 106. Ra8 Rf7 107. Kh3 Rd7 108. Ra5 Re7 109. Rb5 Ra7 110. Rc5 Ra2 111. Rd5 Ra7 112. Rb5 Kh7 113. Rc5 Rf7 114. Rc3 Kh6 115. Kh2 Ra7 116. Rc4 Ra1 117. Rc5 Rb1 118. Kg3 Ra1 119. Kf4 Rb1 120. Rc6 Ra1 121. Rc7 Rb1 122. Rc8 Ra1 123. Ke5 Rb1 124. Rb8 Rxb8 125. Kf4 Rb4+ 126. Kg3 g5 127. Kf2 Rb2+ 128. Kf1 gxh4 129. Kg1 Rb1+ 130. Kf2 Kg5 131. Ke3 Rb2 132. Ke4 Rxg2 133. Ke5 Re2+ 134. Kd4 h3 135. Kd3 Rg2 136. f4+ Kxf4 137. Kc4 h2 138. Kd5 h1=Q 139. Ke6 Rg7 140. Kd6 h4 141. Kc5 Rb7 142. Kd6 h3 143. Kc5 Qc1+ 144. Kd6 Ke4 145. Ke6 Qc6# 0-1
+
+[Event "Hand and Brain"]
+[Site "?"]
+[Date "2022.04.25"]
+[Round "25.2"]
+[White "Br_cdrill_1800_Ha_stockfish_15"]
+[Black "Br_stockfish_15_Ha_cdrill_1800"]
+[Result "1/2-1/2"]
+[FEN "rnbqkbnr/pp3ppp/4p3/2pp4/3PP3/8/PPPN1PPP/R1BQKBNR w KQkq - 0 4"]
+[SetUp "1"]
+[TimeControl "0.5s/move"]
+
+4. Qf3 cxd4 5. Qg3 Nc6 6. Nh3 dxe4 7. Nxe4 f5 8. Nd2 Nf6 9. Nc4 Ne4 10. Qb3 a6 11. Nd2 Nc5 12. Qg3 d3 13. Bxd3 e5 14. Nb3 Nxb3 15. axb3 f4 16. Qf3 Qd4 17. O-O Qd6 18. Re1 Be7 19. Bd2 Kd8 20. Ba5+ Ke8 21. Qe2 Qh6 22. Qf3 g5 23. Be4 Kf8 24. Bxc6 Qxc6 25. Qxc6 bxc6 26. Bc3 h6 27. f3 Bc5+ 28. Nf2 Bd4 29. Bxd4 exd4 30. Ra5 Rh7 31. Rd1 Rd7 32. Rc5 Kg7 33. Rxc6 Re7 34. h4 Bb7 35. Rc4 Rd8 36. Ra1 gxh4 37. Nh3 d3 38. cxd3 Rxd3 39. b4 Rd2 40. Rf1 Rxb2 41. Nxf4 a5 42. Nd3 Rb3 43. Rd1 Rd7 44. bxa5 Bxf3 45. gxf3 Rdxd3 46. Rxd3 Rxd3 47. a6 Rxf3 48. Ra4 Rf8 49. Kh2 Ra8 50. a7 Kg6 51. Kh3 h5 52. Kh2 h3 53. Kxh3 Kg5 54. Ra6 h4 55. Ra2 Kf4 56. Ra5 Ke4 57. Kxh4 Kd4 58. Kg4 Kc3 59. Ra1 Kc4 60. Ra5 Kc3 61. Ra1 Kc4 62. Ra2 Kb5 63. Kf3 Kb6 64. Ke2 Kb7 65. Kd1 Rxa7 66. Rb2+ Ka8 67. Rc2 Kb8 68. Rb2+ Kc8 69. Rc2+ Kd8 70. Rb2 Kc7 71. Rb5 Ra3 72. Kd2 Ra4 73. Kc3 Re4 74. Rh5 Rg4 75. Rh2 Kb6 76. Rh6+ Kb5 77. Rh5+ Kc6 78. Rh2 Kc7 79. Rh7+ Kb8 80. Rh8+ Ka7 81. Rh1 Kb7 82. Rh7+ Ka6 83. Rh5 Ka7 84. Rh8 Ka6 85. Rh5 Rg6 86. Rh2 Rb6 87. Ra2+ Kb7 88. Rh2 Rc6+ 89. Kb4 Ka7 90. Rh1 Ka6 91. Rh2 Kb7 92. Rh4 Rc7 93. Ka5 Rd7 94. Rh2 Rd5+ 95. Kb4 Rd1 96. Rh7+ Kc6 97. Rh6+ Kd5 98. Rh7 Rb1+ 99. Kc3 Rc1+ 100. Kb2 Rc5 101. Rh4 Kc6 102. Rh3 Rb5+ 103. Rb3 Rxb3+ 104. Kxb3 1/2-1/2
+
