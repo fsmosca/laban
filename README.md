@@ -25,3 +25,12 @@ These are the engines that can be used as the `hand` member of the team.
 * [Lc0](https://github.com/LeelaChessZero/lc0/releases)
 * [Stockfish](https://stockfishchess.org/download/)
 * [Weiss](https://github.com/TerjeKir/weiss/releases)
+
+### Setup
+* Intall python 3, tested on python 3.9.1.
+* Create hand_and_brain folder in your drive.
+* Open command prompt or powershell and cd hand_and_brain folder and download the repo with `git clone https://github.com/fsmosca/laban.git`.
+* Install python chess with `pip install chess`.
+* Modify the config.ini file to locate the engines, etc.
+* cd to your laban installation folder.
+* Type `python laban.py` in command prompt or powershell to run the match.
