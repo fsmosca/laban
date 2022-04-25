@@ -34,3 +34,13 @@ These are the engines that can be used as the `hand` member of the team.
 * Modify the config.ini file to locate the engines, etc.
 * cd to your laban installation folder.
 * Type `python laban.py` in command prompt or powershell to run the match.
+
+### Sample results
+
+cdrill as brain defeated stockfish as brain. Note stockfish 15 is around 3700 while cdrill is around 1800 from [ccrl blitz rating list](https://ccrl.chessdom.com/ccrl/404/rating_list_all.html).
+
+```
+   # PLAYER                            :  RATING  POINTS  PLAYED   (%)
+   1 Br_cdrill_1800_Ha_stockfish_15    :  2346.8    31.5      50    63
+   2 Br_stockfish_15_Ha_cdrill_1800    :  2253.2    18.5      50    37
+```
