@@ -11,7 +11,7 @@ Dependent module:
 
 __author__ = 'fsmosca'
 __appname__ = 'Laban'
-__version__ = '0.7.1'
+__version__ = '0.8.0'
 
 
 import configparser
@@ -146,6 +146,7 @@ def match(fen, config, round, subround, movetimems=500, reverse=False):
 
     game.headers['Round'] = f'{round}.{subround}'
     game.headers['Event'] = 'Hand and Brain'
+    game.headers['Site'] = f'Computer, Interface: {__appname__} v{__version__}'
     game.headers['Date'] = f'{da}'
     game.headers['TimeControl'] = f'{movetimems/1000:0.1f}s/move'
     game.headers['Result'] = f'{result}'
