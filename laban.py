@@ -10,7 +10,7 @@ Dependent module:
 
 
 __author__ = 'fsmosca'
-__version__ = '0.5.0'
+__version__ = '0.6.0'
 
 
 import configparser
@@ -92,6 +92,7 @@ def match(fen, config, round, subround, movetimems=500, reverse=False):
     print(f'starting {eng_name[0]} vs {eng_name[1]}, round {round}.{subround} ...')
 
     board = chess.Board(fen)
+    start_turn = board.turn
 
     # Play a game.
     while not board.is_game_over():    
@@ -127,8 +128,13 @@ def match(fen, config, round, subround, movetimems=500, reverse=False):
     today = date.today()
     da = today.strftime("%Y.%m.%d")
 
-    game.headers['White'] = eng_name[0]
-    game.headers['Black'] = eng_name[1]
+    if start_turn:
+        game.headers['White'] = eng_name[0]
+        game.headers['Black'] = eng_name[1]
+    else:
+        game.headers['White'] = eng_name[1]
+        game.headers['Black'] = eng_name[0]
+
     game.headers['Round'] = f'{round}.{subround}'
     game.headers['Event'] = 'Hand and Brain'
     game.headers['Date'] = f'{da}'
