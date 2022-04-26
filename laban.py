@@ -10,7 +10,7 @@ Dependent module:
 
 
 __author__ = 'fsmosca'
-__version__ = '0.4.0'
+__version__ = '0.4.1'
 
 
 import configparser
@@ -148,12 +148,13 @@ def save_game(config, game):
         h.write(f'{game}\n\n')
 
 
-def read_positions(fn):
+def read_positions(config):
     """
     Read a file with epd or fen and return it as a list.
     """
     fens = []
-    with open(fn, 'r') as f:
+    fenfn = config['positions']['posfn']    
+    with open(fenfn, 'r') as f:
         for lines in f:
             line = lines.strip()
             fens.append(line)
@@ -169,8 +170,7 @@ def main():
     game_concurrency = int(config['match']['concurrency'])
     num_games = int(config['match']['numgames'])
 
-    fenfn = config['positions']['posfn']
-    fens = read_positions(fenfn)
+    fens = read_positions(config)
 
     job_list = []
 
