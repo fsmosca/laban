@@ -10,7 +10,7 @@ Dependent module:
 
 
 __author__ = 'fsmosca'
-__version__ = '0.1.0'
+__version__ = '0.2.0'
 
 
 import configparser
@@ -42,14 +42,10 @@ def init_engine(t, hash_mb=128, num_threads=1):
     Configure engine's memory and threads.
     """
     for e in t:
-        try:
+        if 'Hash' in e.options:
             e.configure({'Hash': hash_mb})
-        except Exception as ex:
-            pass
-        try:
+        if 'Threads' in e.options:
             e.configure({'Threads': num_threads})
-        except Exception as ex:
-            pass
 
 
 def quit_engines(t1, t2):
