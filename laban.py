@@ -10,7 +10,8 @@ Dependent module:
 
 
 __author__ = 'fsmosca'
-__version__ = '0.7.0'
+__appname__ = 'Laban'
+__version__ = '0.7.1'
 
 
 import configparser
