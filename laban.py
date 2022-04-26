@@ -11,7 +11,7 @@ Dependent module:
 
 __author__ = 'fsmosca'
 __appname__ = 'Laban'
-__version__ = '0.8.0'
+__version__ = '0.9.0'
 
 
 import configparser
@@ -73,22 +73,28 @@ def match(fen, config, round, subround, movetimems=500, reverse=False):
     team2_name = config['team2']['name']
 
     # Define engines
+    idname1 = {}
     engine1 = chess.engine.SimpleEngine.popen_uci(f'{e1path}')
     engine2 = chess.engine.SimpleEngine.popen_uci(f'{e2path}')
     t1 = [engine1, engine2]
     init_engine(t1, hash_mb, num_threads)
+    idname1.update({'brain': engine1.id['name'], 'hand': engine2.id['name']})
 
+    idname2 = {}
     engine3 = chess.engine.SimpleEngine.popen_uci(f'{e3path}')
     engine4 = chess.engine.SimpleEngine.popen_uci(f'{e4path}')
     t2 = [engine3, engine4]
     init_engine(t2, hash_mb, num_threads)
+    idname2.update({'brain': engine3.id['name'], 'hand': engine4.id['name']})
 
     if not reverse:
         eng = [t1, t2]
         eng_name = [team1_name, team2_name]
+        id_name = [idname1, idname2]
     else:
         eng = [t2, t1]
         eng_name = [team2_name, team1_name]
+        id_name = [idname2, idname1]
 
     print(f'starting {eng_name[0]} vs {eng_name[1]}, round {round}.{subround} ...')
 
@@ -139,10 +145,20 @@ def match(fen, config, round, subround, movetimems=500, reverse=False):
 
     if start_turn:
         game.headers['White'] = eng_name[0]
+        game.headers['WhiteBrain'] = id_name[0]['brain']
+        game.headers['WhiteHand'] = id_name[0]['hand']
+
         game.headers['Black'] = eng_name[1]
+        game.headers['BlackBrain'] = id_name[1]['brain']
+        game.headers['BlackHand'] = id_name[1]['hand']        
     else:
         game.headers['White'] = eng_name[1]
+        game.headers['WhiteBrain'] = id_name[1]['brain']
+        game.headers['WhiteHand'] = id_name[1]['hand']
+
         game.headers['Black'] = eng_name[0]
+        game.headers['BlackBrain'] = id_name[0]['brain']
+        game.headers['BlackHand'] = id_name[0]['hand']        
 
     game.headers['Round'] = f'{round}.{subround}'
     game.headers['Event'] = 'Hand and Brain'
