@@ -11,7 +11,7 @@ Dependent module:
 
 __author__ = 'fsmosca'
 __appname__ = 'Laban'
-__version__ = '0.9.0'
+__version__ = '0.10.0'
 
 
 import configparser
@@ -182,7 +182,7 @@ def save_game(config, game):
         h.write(f'{game}\n\n')
 
 
-def read_positions(config, israndom=True):
+def read_start_positions(config, israndom=True):
     """
     Read a file with epd or fen and return it as a list.
     """
@@ -220,7 +220,7 @@ def main():
     game_concurrency = int(config['match']['concurrency'])
     num_games = int(config['match']['numgames'])
 
-    fens = read_positions(config)
+    fens = read_start_positions(config)
 
     job_list = []
 
