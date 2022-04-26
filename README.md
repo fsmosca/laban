@@ -29,12 +29,14 @@ These are the engines that can be used as the `hand` member of the team, there c
 * [Zahak](https://github.com/amanjpro/zahak/releases)
 
 ### Setup
-* Intall python 3, tested on python 3.9.1.
-* Create hand_and_brain folder in your drive.
-* Open command prompt or powershell and cd hand_and_brain folder and download the repo with `git clone https://github.com/fsmosca/laban.git`.
+* Intall python 3, this script is tested on python 3.9.1.
+* Be sure your engines are ready or already downloaded.
+* Create `hand_and_brain` folder or any folder name in your drive.
+* Open command prompt or powershell and cd to hand_and_brain folder.
+* Download the repo with `git clone https://github.com/fsmosca/laban.git`.
 * Install python chess with `pip install chess`.
-* Modify the config.ini file to locate the engines, etc.
 * cd to your laban installation folder.
+* Modify the config.ini file to change options.
 * Type `python laban.py` in command prompt or powershell to run the match.
 
 ### Sample results
