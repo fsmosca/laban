@@ -23,6 +23,7 @@ These are the engines that can be used as the `hand` member of the team, there c
 * [Ethereal](https://github.com/AndyGrant/Ethereal/releases)
 * [Komodo](https://komodochess.com/)
 * [Lc0](https://github.com/LeelaChessZero/lc0/releases)
+* [MadChess](https://www.madchess.net/downloads/)
 * [Stockfish](https://stockfishchess.org/download/)
 * [Weiss](https://github.com/TerjeKir/weiss/releases)
 * [Zahak](https://github.com/amanjpro/zahak/releases)
