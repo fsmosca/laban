@@ -3,11 +3,11 @@ A python script that is used to match a team of engines for the HAB - `Hand and 
 
 ### Algorithm
 * 1. Send the position to the `brain` member of first/second team.
-* 2. Send the command `go movetime 1000` to the `brain` and get its bestmove.
-* 3. Save what piece type (pawn, knight ...) is on this move.
+* 2. Send the command `go movetime <movetime>` to the `brain` and get its bestmove.
+* 3. Save what piece type (pawn, knight ...) has been moved.
 * 4. Save all the legal moves having that piece type.
-* 5. Send the command `go movetime 1000 searchmoves m1 m2 ...` to the `hand` member where m1 m2 are the legal moves from step 4.
-* 6. Save the move and update the position with this move.
+* 5. Send the command `go movetime <movetime> searchmoves m1 m2 ...` to the `hand` member of the team where m1, m2 ... are the legal moves from step 4.
+* 6. Save the move from `hand` and update the position with this move.
 * 7. Go to step 1
 
 It should be noted that the engine that handles the `hand` must support the searchmoves UCI command.
