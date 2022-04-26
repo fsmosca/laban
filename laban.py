@@ -10,7 +10,7 @@ Dependent module:
 
 
 __author__ = 'fsmosca'
-__version__ = '0.2.0'
+__version__ = '0.3.0'
 
 
 import configparser
@@ -93,11 +93,9 @@ def match(fen, config, round, subround, movetimems=500, reverse=False):
     # Play a game.
     while not board.is_game_over():    
         for i in range(2):
-            pt = None
-            legal_ = []
+            move, pt, legal_ = None, None, []
 
             for j in range(2):
-                move = None
                 if j == 0:  # brain
                     result = eng[i][j].play(board, chess.engine.Limit(time=movetimems/1000))
                     bm = result.move
@@ -108,6 +106,7 @@ def match(fen, config, round, subround, movetimems=500, reverse=False):
                         pt_ = board.piece_type_at(frsq_)
                         if pt == pt_:
                             legal_.append(m)
+                    assert pt is not None
                 else:  # hand
                     assert len(legal_ ) > 0
                     result = eng[i][j].play(board, chess.engine.Limit(time=movetimems/1000), root_moves=legal_)
