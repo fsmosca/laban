@@ -10,7 +10,7 @@ Dependent module:
 
 
 __author__ = 'fsmosca'
-__version__ = '0.6.0'
+__version__ = '0.7.0'
 
 
 import configparser
@@ -94,15 +94,20 @@ def match(fen, config, round, subround, movetimems=500, reverse=False):
     board = chess.Board(fen)
     start_turn = board.turn
 
+    game = chess.pgn.Game()
+    game = game.from_board(board)
+    node = game
+
     # Play a game.
     while not board.is_game_over():    
         for i in range(2):
-            move, pt, legal_ = None, None, []
+            move, pt, legal_, brain_bm = None, None, [], None
 
             for j in range(2):
                 if j == 0:  # brain
                     result = eng[i][j].play(board, chess.engine.Limit(time=movetimems/1000))
                     bm = result.move
+                    brain_bm = bm
                     frsq = bm.from_square
                     pt = board.piece_type_at(frsq)
                     for m in board.legal_moves:
@@ -117,13 +122,16 @@ def match(fen, config, round, subround, movetimems=500, reverse=False):
                     move = result.move
 
             assert move is not None
+            node = node.add_main_variation(move, comment=f'brain: {board.san(brain_bm)}')            
             board.push(move)
 
             if board.is_game_over():
                 break
 
-    game = chess.pgn.Game()
-    game = game.from_board(board)
+    # Save game
+    game_tmp = chess.pgn.Game()
+    game_tmp = game_tmp.from_board(board)
+    result = game_tmp.headers['Result']
 
     today = date.today()
     da = today.strftime("%Y.%m.%d")
@@ -139,6 +147,7 @@ def match(fen, config, round, subround, movetimems=500, reverse=False):
     game.headers['Event'] = 'Hand and Brain'
     game.headers['Date'] = f'{da}'
     game.headers['TimeControl'] = f'{movetimems/1000:0.1f}s/move'
+    game.headers['Result'] = f'{result}'
 
     quit_engines(t1, t2)
 
