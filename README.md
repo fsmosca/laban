@@ -25,6 +25,7 @@ These are the engines that can be used as the `hand` member of the team, there c
 * [Lc0](https://github.com/LeelaChessZero/lc0/releases)
 * [Stockfish](https://stockfishchess.org/download/)
 * [Weiss](https://github.com/TerjeKir/weiss/releases)
+* [Zahak](https://github.com/amanjpro/zahak/releases)
 
 ### Setup
 * Intall python 3, tested on python 3.9.1.
