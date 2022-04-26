@@ -1,1 +1,1 @@
-Positions in the fen file must be white to move.
+Positions can be in fen or epd format.
