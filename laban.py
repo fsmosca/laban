@@ -10,7 +10,7 @@ Dependent module:
 
 
 __author__ = 'fsmosca'
-__version__ = '0.4.1'
+__version__ = '0.5.0'
 
 
 import configparser
@@ -18,6 +18,7 @@ import concurrent.futures
 from concurrent.futures import ProcessPoolExecutor
 import sys
 from datetime import date
+import random
 # import logging
 
 import chess
@@ -148,16 +149,32 @@ def save_game(config, game):
         h.write(f'{game}\n\n')
 
 
-def read_positions(config):
+def read_positions(config, israndom=True):
     """
     Read a file with epd or fen and return it as a list.
     """
     fens = []
-    fenfn = config['positions']['posfn']    
+    fenfn = config['positions']['posfn']
+
+    try:
+        isshuffle = config.get('positions', 'shuffle')
+    except configparser.NoOptionError:
+        isshuffle = 'true'
+
+    if isshuffle.lower() == 'true' or isshuffle == '1':
+        israndom = True
+    elif isshuffle.lower() == 'false' or isshuffle == '0':
+        israndom = False    
+
+    # print(f'israndom: {israndom}')
+
     with open(fenfn, 'r') as f:
         for lines in f:
             line = lines.strip()
             fens.append(line)
+
+    if israndom:
+        random.shuffle(fens)
 
     return fens
 
