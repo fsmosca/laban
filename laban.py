@@ -10,7 +10,7 @@ Dependent module:
 
 
 __author__ = 'fsmosca'
-__version__ = '0.3.0'
+__version__ = '0.4.0'
 
 
 import configparser
@@ -87,6 +87,8 @@ def match(fen, config, round, subround, movetimems=500, reverse=False):
     else:
         eng = [t2, t1]
         eng_name = [team2_name, team1_name]
+
+    print(f'starting {eng_name[0]} vs {eng_name[1]}, round {round}.{subround} ...')
 
     board = chess.Board(fen)
 
