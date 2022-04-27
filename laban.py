@@ -11,7 +11,7 @@ Dependent module:
 
 __author__ = 'fsmosca'
 __appname__ = 'Laban'
-__version__ = '0.10.0'
+__version__ = '0.11.0'
 
 
 import configparser
@@ -57,9 +57,9 @@ def quit_engines(t1, t2):
         e.quit()
 
 
-def match(fen, config, round, subround, movetimems=500, reverse=False):
+def match(board, config, round, subround, movetimems=500, reverse=False):
     """
-    Play 1 game from the given fen and return the game.
+    Play 1 game from the given board and return the game.
     """
     hash_mb = int(config['engine']['hash'])
     num_threads = int(config['engine']['threads'])
@@ -98,7 +98,6 @@ def match(fen, config, round, subround, movetimems=500, reverse=False):
 
     print(f'starting {eng_name[0]} vs {eng_name[1]}, round {round}.{subround} ...')
 
-    board = chess.Board(fen)
     start_turn = board.turn
 
     game = chess.pgn.Game()
@@ -184,9 +183,9 @@ def save_game(config, game):
 
 def read_start_positions(config, israndom=True):
     """
-    Read a file with epd or fen and return it as a list.
+    Read a file with epd or fen and return it as a list of board.
     """
-    fens = []
+    boards = []
     fenfn = config['positions']['posfn']
 
     try:
@@ -204,12 +203,12 @@ def read_start_positions(config, israndom=True):
     with open(fenfn, 'r') as f:
         for lines in f:
             line = lines.strip()
-            fens.append(line)
+            boards.append(chess.Board(line))
 
     if israndom:
-        random.shuffle(fens)
+        random.shuffle(boards)
 
-    return fens
+    return boards
 
 
 def main():
@@ -220,15 +219,15 @@ def main():
     game_concurrency = int(config['match']['concurrency'])
     num_games = int(config['match']['numgames'])
 
-    fens = read_start_positions(config)
+    boards = read_start_positions(config)
 
     job_list = []
 
     with ProcessPoolExecutor(max_workers=game_concurrency) as executor:
-        for i, fen in enumerate(fens):
-            job = executor.submit(match, fen, config, i+1, 1, movetimems=movetimems, reverse=False)
+        for i, board in enumerate(boards):
+            job = executor.submit(match, board, config, i+1, 1, movetimems=movetimems, reverse=False)
             job_list.append(job)
-            job = executor.submit(match, fen, config, i+1, 2, movetimems=movetimems, reverse=True)
+            job = executor.submit(match, board, config, i+1, 2, movetimems=movetimems, reverse=True)
             job_list.append(job)
 
             if i+1 >= num_games//2:
