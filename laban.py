@@ -11,7 +11,7 @@ Dependent module:
 
 __author__ = 'fsmosca'
 __appname__ = 'Laban'
-__version__ = '0.11.0'
+__version__ = '1.0'
 
 
 import configparser
@@ -57,7 +57,7 @@ def quit_engines(t1, t2):
         e.quit()
 
 
-def match(board, config, round, subround, movetimems=500, reverse=False):
+def match(game, config, round, subround, movetimems=500, reverse=False):
     """
     Play 1 game from the given board and return the game.
     """
@@ -98,11 +98,11 @@ def match(board, config, round, subround, movetimems=500, reverse=False):
 
     print(f'starting {eng_name[0]} vs {eng_name[1]}, round {round}.{subround} ...')
 
-    start_turn = board.turn
+    # Create board.
+    node = game.end()
+    board = node.board()
 
-    game = chess.pgn.Game()
-    game = game.from_board(board)
-    node = game
+    start_turn = board.turn
 
     # Play a game.
     while not board.is_game_over():    
@@ -121,13 +121,10 @@ def match(board, config, round, subround, movetimems=500, reverse=False):
                         pt_ = board.piece_type_at(frsq_)
                         if pt == pt_:
                             legal_.append(m)
-                    assert pt is not None
                 else:  # hand
-                    assert len(legal_ ) > 0
                     result = eng[i][j].play(board, chess.engine.Limit(time=movetimems/1000), root_moves=legal_)
                     move = result.move
 
-            assert move is not None
             node = node.add_main_variation(move, comment=f'brain: {board.san(brain_bm)}')            
             board.push(move)
 
@@ -183,10 +180,10 @@ def save_game(config, game):
 
 def read_start_positions(config, israndom=True):
     """
-    Read a file with epd or fen and return it as a list of board.
+    Read fen, epd and pgn files and return it as a list of games.
     """
-    boards = []
-    fenfn = config['positions']['posfn']
+    start_games = []
+    fn = config['positions']['posfn']
 
     try:
         isshuffle = config.get('positions', 'shuffle')
@@ -196,19 +193,34 @@ def read_start_positions(config, israndom=True):
     if isshuffle.lower() == 'true' or isshuffle == '1':
         israndom = True
     elif isshuffle.lower() == 'false' or isshuffle == '0':
-        israndom = False    
+        israndom = False
 
-    # print(f'israndom: {israndom}')
+    # fen and epd files
+    if fn.endswith('.fen') or fn.endswith('.epd'):
+        with open(fn, 'r') as f:
+            for lines in f:
+                line = lines.strip()
+                game = chess.pgn.Game()            
+                game = game.from_board(chess.Board(line))
+                start_games.append(game)
 
-    with open(fenfn, 'r') as f:
-        for lines in f:
-            line = lines.strip()
-            boards.append(chess.Board(line))
+    # pgn file
+    elif fn.endswith('.pgn'):
+        with open(fn, 'r') as f:
+            while True:
+                game = chess.pgn.read_game(f)
+                if game is None:
+                    break
+                start_games.append(game)
+    
+    # not supported file
+    else:
+        raise Exception(f'Your start position file {fn} is not a fen or epd or pgn.')
 
     if israndom:
-        random.shuffle(boards)
+        random.shuffle(start_games)
 
-    return boards
+    return start_games
 
 
 def main():
@@ -219,15 +231,15 @@ def main():
     game_concurrency = int(config['match']['concurrency'])
     num_games = int(config['match']['numgames'])
 
-    boards = read_start_positions(config)
+    start_games = read_start_positions(config)
 
     job_list = []
 
     with ProcessPoolExecutor(max_workers=game_concurrency) as executor:
-        for i, board in enumerate(boards):
-            job = executor.submit(match, board, config, i+1, 1, movetimems=movetimems, reverse=False)
+        for i, sg in enumerate(start_games):
+            job = executor.submit(match, sg, config, i+1, 1, movetimems=movetimems, reverse=False)
             job_list.append(job)
-            job = executor.submit(match, board, config, i+1, 2, movetimems=movetimems, reverse=True)
+            job = executor.submit(match, sg, config, i+1, 2, movetimems=movetimems, reverse=True)
             job_list.append(job)
 
             if i+1 >= num_games//2:
