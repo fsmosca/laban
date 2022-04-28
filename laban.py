@@ -11,7 +11,7 @@ Dependent module:
 
 __author__ = 'fsmosca'
 __appname__ = 'Laban'
-__version__ = '1.1'
+__version__ = '1.2'
 
 
 import configparser
@@ -223,6 +223,7 @@ def read_start_positions(config, israndom=True):
 
 def main():
     config = configparser.ConfigParser()
+    config.optionxform=str
     config.read('config.ini')
 
     movetimems = int(config['match']['movetimems'])
