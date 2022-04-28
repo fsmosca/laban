@@ -18,6 +18,7 @@ These are the engines that can be used as the `hand` member of the team, there c
 * [Berserk](https://github.com/jhonnold/berserk/releases)
 * [Cdrill](https://sites.google.com/view/cdrill/download)
 * [Cheng](https://github.com/kmar/cheng4/releases)
+* [Cosette](https://github.com/Tearth/Cosette)
 * [CT800](https://www.ct800.net/download.htm)
 * [Deuterium](https://sites.google.com/view/deuterium-chess/download/engines/chess)  
 * [Ethereal](https://github.com/AndyGrant/Ethereal/releases)
@@ -25,6 +26,7 @@ These are the engines that can be used as the `hand` member of the team, there c
 * [Lc0](https://github.com/LeelaChessZero/lc0/releases)  
   Be careful to run Lc0 on gpu, it needs a proper setup the unit must have at least 2 gpu. This has not been tested.
 * [MadChess](https://www.madchess.net/downloads/)
+* [Rubichess](https://github.com/Matthies/RubiChess/releases)
 * [Stockfish](https://stockfishchess.org/download/)
 * [Weiss](https://github.com/TerjeKir/weiss/releases)
 * [Zahak](https://github.com/amanjpro/zahak/releases)
