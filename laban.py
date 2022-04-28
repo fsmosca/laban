@@ -11,7 +11,7 @@ Dependent module:
 
 __author__ = 'fsmosca'
 __appname__ = 'Laban'
-__version__ = '1.0'
+__version__ = '1.1'
 
 
 import configparser
@@ -39,15 +39,16 @@ sys.setrecursionlimit(10000)
 # )
 
 
-def init_engine(t, hash_mb=128, num_threads=1):
+def init_engine(config, t):
     """
     Configure engine's memory and threads.
     """
+    options = dict(config.items('engine'))
+
     for e in t:
-        if 'Hash' in e.options:
-            e.configure({'Hash': hash_mb})
-        if 'Threads' in e.options:
-            e.configure({'Threads': num_threads})
+        for k, v in options.items():
+            if k.lower() in [o.lower() for o in e.options]:
+                e.configure({k: v})
 
 
 def quit_engines(t1, t2):
@@ -61,9 +62,6 @@ def match(game, config, round, subround, movetimems=500, reverse=False):
     """
     Play 1 game from the given board and return the game.
     """
-    hash_mb = int(config['engine']['hash'])
-    num_threads = int(config['engine']['threads'])
-
     e1path = config['team1']['brain']
     e2path = config['team1']['hand']
     team1_name = config['team1']['name']
@@ -77,14 +75,14 @@ def match(game, config, round, subround, movetimems=500, reverse=False):
     engine1 = chess.engine.SimpleEngine.popen_uci(f'{e1path}')
     engine2 = chess.engine.SimpleEngine.popen_uci(f'{e2path}')
     t1 = [engine1, engine2]
-    init_engine(t1, hash_mb, num_threads)
+    init_engine(config, t1)
     idname1.update({'brain': engine1.id['name'], 'hand': engine2.id['name']})
 
     idname2 = {}
     engine3 = chess.engine.SimpleEngine.popen_uci(f'{e3path}')
     engine4 = chess.engine.SimpleEngine.popen_uci(f'{e4path}')
     t2 = [engine3, engine4]
-    init_engine(t2, hash_mb, num_threads)
+    init_engine(config, t2)
     idname2.update({'brain': engine3.id['name'], 'hand': engine4.id['name']})
 
     if not reverse:
